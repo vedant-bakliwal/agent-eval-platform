@@ -1,0 +1,24 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -e ".[dev]"
+      - run: pytest -q
+      - name: Eval run (simulated models, free)
+        run: |
+          agenteval run --models sim:frontier,sim:fast --prompts baseline,policy_checklist --trials 3 \
+            --compare "sim:fast / baseline..sim:fast / policy_checklist" \
+            --gate "success_rate>=0.75" --out out
+      - name: The gate must be able to fail (weak config, strict bar)
+        run: |
+          if agenteval run --models sim:small-oss --prompts terse --trials 2 --gate "success_rate>=0.75" --out out-weak; then
+            echo "gate passed a config it should have blocked"; exit 1
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: eval-report, path: "out*/"}

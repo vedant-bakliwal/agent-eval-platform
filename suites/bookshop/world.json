@@ -1,0 +1,8925 @@
+{
+ "books": {
+  "BK-100": {
+   "title": "The Pragmatic Programmer",
+   "author": "David Thomas",
+   "price": 32.9,
+   "stock": 2
+  },
+  "BK-101": {
+   "title": "Designing Data-Intensive Applications",
+   "author": "Martin Kleppmann",
+   "price": 36.16,
+   "stock": 0
+  },
+  "BK-102": {
+   "title": "Clean Code",
+   "author": "Robert Martin",
+   "price": 21.33,
+   "stock": 30
+  },
+  "BK-103": {
+   "title": "Refactoring",
+   "author": "Martin Fowler",
+   "price": 22.33,
+   "stock": 30
+  },
+  "BK-104": {
+   "title": "Site Reliability Engineering",
+   "author": "Betsy Beyer",
+   "price": 20.67,
+   "stock": 30
+  },
+  "BK-105": {
+   "title": "The Phoenix Project",
+   "author": "Gene Kim",
+   "price": 27.88,
+   "stock": 0
+  },
+  "BK-106": {
+   "title": "Accelerate",
+   "author": "Nicole Forsgren",
+   "price": 37.95,
+   "stock": 0
+  },
+  "BK-107": {
+   "title": "Release It!",
+   "author": "Michael Nygard",
+   "price": 29.07,
+   "stock": 30
+  },
+  "BK-108": {
+   "title": "Working Effectively with Legacy Code",
+   "author": "Michael Feathers",
+   "price": 37.53,
+   "stock": 30
+  },
+  "BK-109": {
+   "title": "Domain-Driven Design",
+   "author": "Eric Evans",
+   "price": 23.69,
+   "stock": 2
+  },
+  "BK-110": {
+   "title": "The Mythical Man-Month",
+   "author": "Fred Brooks",
+   "price": 47.01,
+   "stock": 30
+  },
+  "BK-111": {
+   "title": "Code Complete",
+   "author": "Steve McConnell",
+   "price": 61.59,
+   "stock": 30
+  },
+  "BK-112": {
+   "title": "Test Driven Development",
+   "author": "Kent Beck",
+   "price": 44.93,
+   "stock": 0
+  },
+  "BK-113": {
+   "title": "Continuous Delivery",
+   "author": "Jez Humble",
+   "price": 62.91,
+   "stock": 0
+  },
+  "BK-114": {
+   "title": "Building Microservices",
+   "author": "Sam Newman",
+   "price": 43.61,
+   "stock": 2
+  },
+  "BK-115": {
+   "title": "Staff Engineer",
+   "author": "Will Larson",
+   "price": 31.32,
+   "stock": 2
+  },
+  "BK-116": {
+   "title": "An Elegant Puzzle",
+   "author": "Will Larson",
+   "price": 42.87,
+   "stock": 30
+  },
+  "BK-117": {
+   "title": "Thinking in Systems",
+   "author": "Donella Meadows",
+   "price": 32.19,
+   "stock": 2
+  },
+  "BK-118": {
+   "title": "The Manager's Path",
+   "author": "Camille Fournier",
+   "price": 22.74,
+   "stock": 30
+  },
+  "BK-119": {
+   "title": "System Design Interview",
+   "author": "Alex Xu",
+   "price": 47.39,
+   "stock": 5
+  },
+  "BK-120": {
+   "title": "Grokking Algorithms",
+   "author": "Aditya Bhargava",
+   "price": 22.48,
+   "stock": 0
+  },
+  "BK-121": {
+   "title": "Effective Java",
+   "author": "Joshua Bloch",
+   "price": 43.96,
+   "stock": 30
+  },
+  "BK-122": {
+   "title": "Fluent Python",
+   "author": "Luciano Ramalho",
+   "price": 27.47,
+   "stock": 30
+  },
+  "BK-123": {
+   "title": "AI Engineering",
+   "author": "Chip Huyen",
+   "price": 37.67,
+   "stock": 5
+  }
+ },
+ "orders": {
+  "ORD-8628": {
+   "id": "ORD-8628",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-122",
+     "title": "Fluent Python",
+     "price": 27.47
+    },
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    }
+   ],
+   "total": 65.14,
+   "email": "sana18@example.com",
+   "address": "6640 Congress Ave, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-8424": {
+   "id": "ORD-8424",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    },
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    }
+   ],
+   "total": 54.23,
+   "email": "sana95@example.com",
+   "address": "4197 Riverside Dr, Austin, TX 78704",
+   "carrier": "UPS",
+   "tracking": "1Z9952794342",
+   "eta": "2026-11-27"
+  },
+  "ORD-6924": {
+   "id": "ORD-6924",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    },
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    },
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    }
+   ],
+   "total": 110.52,
+   "email": "tom32@example.com",
+   "address": "4811 Oak St, Chicago, IL 60601",
+   "carrier": "UPS",
+   "tracking": "1Z5971566116",
+   "eta": "delivered"
+  },
+  "ORD-5911": {
+   "id": "ORD-5911",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    },
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 132.02,
+   "email": "jonas71@example.com",
+   "address": "5310 Lamar Blvd, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-5070": {
+   "id": "ORD-5070",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 99.54,
+   "email": "lena1@example.com",
+   "address": "5504 Riverside Dr, Austin, TX 78701",
+   "carrier": "FedEx",
+   "tracking": "1Z3817575326",
+   "eta": "2026-11-08"
+  },
+  "ORD-3945": {
+   "id": "ORD-3945",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    }
+   ],
+   "total": 21.33,
+   "email": "priya12@example.com",
+   "address": "2367 Riverside Dr, Miami, FL 33101",
+   "carrier": "UPS",
+   "tracking": "1Z2692125395",
+   "eta": "delivered"
+  },
+  "ORD-4999": {
+   "id": "ORD-4999",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    },
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 46.17,
+   "email": "omar11@example.com",
+   "address": "9604 Guadalupe St, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-2341": {
+   "id": "ORD-2341",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    },
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    },
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    }
+   ],
+   "total": 116.0,
+   "email": "lena37@example.com",
+   "address": "2381 Oak St, Miami, FL 33101",
+   "carrier": "USPS",
+   "tracking": "1Z3171282226",
+   "eta": "2026-11-17"
+  },
+  "ORD-5919": {
+   "id": "ORD-5919",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    }
+   ],
+   "total": 43.96,
+   "email": "tom92@example.com",
+   "address": "3777 Oak St, Austin, TX 78701",
+   "carrier": "UPS",
+   "tracking": "1Z5745580125",
+   "eta": "delivered"
+  },
+  "ORD-9604": {
+   "id": "ORD-9604",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    },
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    },
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 90.83,
+   "email": "maya81@example.com",
+   "address": "8717 Burnet Rd, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-9111": {
+   "id": "ORD-9111",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    },
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    },
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    }
+   ],
+   "total": 114.04,
+   "email": "arjun96@example.com",
+   "address": "8250 Guadalupe St, Austin, TX 78701",
+   "carrier": "USPS",
+   "tracking": "1Z3259110499",
+   "eta": "2026-11-24"
+  },
+  "ORD-6627": {
+   "id": "ORD-6627",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    },
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    }
+   ],
+   "total": 87.93,
+   "email": "ravi97@example.com",
+   "address": "3372 Lamar Blvd, Chicago, IL 60601",
+   "carrier": "FedEx",
+   "tracking": "1Z8926496377",
+   "eta": "delivered"
+  },
+  "ORD-8353": {
+   "id": "ORD-8353",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    }
+   ],
+   "total": 31.32,
+   "email": "sana37@example.com",
+   "address": "775 Guadalupe St, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-5717": {
+   "id": "ORD-5717",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    }
+   ],
+   "total": 47.39,
+   "email": "lena43@example.com",
+   "address": "4170 Burnet Rd, Round Rock, TX 78664",
+   "carrier": "USPS",
+   "tracking": "1Z3438517928",
+   "eta": "2026-11-01"
+  },
+  "ORD-2199": {
+   "id": "ORD-2199",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    },
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    },
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    }
+   ],
+   "total": 105.01,
+   "email": "sana13@example.com",
+   "address": "3576 Burnet Rd, Chicago, IL 60601",
+   "carrier": "FedEx",
+   "tracking": "1Z6521367457",
+   "eta": "delivered"
+  },
+  "ORD-2934": {
+   "id": "ORD-2934",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    },
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    },
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    }
+   ],
+   "total": 98.13,
+   "email": "omar40@example.com",
+   "address": "1416 Riverside Dr, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-9387": {
+   "id": "ORD-9387",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    },
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    }
+   ],
+   "total": 64.94,
+   "email": "aisha58@example.com",
+   "address": "4411 Riverside Dr, Austin, TX 78704",
+   "carrier": "UPS",
+   "tracking": "1Z9910394404",
+   "eta": "2026-11-03"
+  },
+  "ORD-7850": {
+   "id": "ORD-7850",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    },
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    }
+   ],
+   "total": 80.54,
+   "email": "priya47@example.com",
+   "address": "2182 Guadalupe St, Miami, FL 33101",
+   "carrier": "FedEx",
+   "tracking": "1Z4809043993",
+   "eta": "delivered"
+  },
+  "ORD-3702": {
+   "id": "ORD-3702",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    },
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    }
+   ],
+   "total": 60.39,
+   "email": "diego51@example.com",
+   "address": "416 Lamar Blvd, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-6604": {
+   "id": "ORD-6604",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    },
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    },
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    }
+   ],
+   "total": 132.5,
+   "email": "priya94@example.com",
+   "address": "2315 Riverside Dr, Round Rock, TX 78664",
+   "carrier": "FedEx",
+   "tracking": "1Z2357544871",
+   "eta": "2026-11-27"
+  },
+  "ORD-3490": {
+   "id": "ORD-3490",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    },
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    }
+   ],
+   "total": 79.91,
+   "email": "jonas51@example.com",
+   "address": "1976 Lamar Blvd, Austin, TX 78701",
+   "carrier": "USPS",
+   "tracking": "1Z6539790381",
+   "eta": "delivered"
+  },
+  "ORD-9011": {
+   "id": "ORD-9011",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    }
+   ],
+   "total": 66.26,
+   "email": "chloe76@example.com",
+   "address": "1261 Congress Ave, Chicago, IL 60601",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-7909": {
+   "id": "ORD-7909",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    },
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    }
+   ],
+   "total": 73.69,
+   "email": "arjun7@example.com",
+   "address": "4689 Burnet Rd, Austin, TX 78704",
+   "carrier": "UPS",
+   "tracking": "1Z9465546325",
+   "eta": "2026-11-14"
+  },
+  "ORD-1642": {
+   "id": "ORD-1642",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 99.54,
+   "email": "chloe4@example.com",
+   "address": "6564 Guadalupe St, Miami, FL 33101",
+   "carrier": "UPS",
+   "tracking": "1Z4090540709",
+   "eta": "delivered"
+  },
+  "ORD-2271": {
+   "id": "ORD-2271",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    }
+   ],
+   "total": 37.67,
+   "email": "chloe58@example.com",
+   "address": "2280 Burnet Rd, Round Rock, TX 78664",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-6140": {
+   "id": "ORD-6140",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    },
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    },
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    }
+   ],
+   "total": 89.02,
+   "email": "lena61@example.com",
+   "address": "6807 Congress Ave, Round Rock, TX 78664",
+   "carrier": "FedEx",
+   "tracking": "1Z8098798514",
+   "eta": "2026-11-13"
+  },
+  "ORD-6572": {
+   "id": "ORD-6572",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    },
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    }
+   ],
+   "total": 55.01,
+   "email": "aisha86@example.com",
+   "address": "6471 Oak St, Austin, TX 78704",
+   "carrier": "USPS",
+   "tracking": "1Z1694311368",
+   "eta": "delivered"
+  },
+  "ORD-6737": {
+   "id": "ORD-6737",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    },
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    }
+   ],
+   "total": 74.19,
+   "email": "aisha29@example.com",
+   "address": "7431 Congress Ave, Chicago, IL 60601",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-9137": {
+   "id": "ORD-9137",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    },
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    },
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    }
+   ],
+   "total": 90.81,
+   "email": "omar12@example.com",
+   "address": "2872 Congress Ave, Miami, FL 33101",
+   "carrier": "UPS",
+   "tracking": "1Z2371330426",
+   "eta": "2026-11-12"
+  },
+  "ORD-8474": {
+   "id": "ORD-8474",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    },
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    }
+   ],
+   "total": 60.69,
+   "email": "maya96@example.com",
+   "address": "6773 Riverside Dr, Chicago, IL 60601",
+   "carrier": "USPS",
+   "tracking": "1Z3251285041",
+   "eta": "delivered"
+  },
+  "ORD-2126": {
+   "id": "ORD-2126",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    },
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    },
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    }
+   ],
+   "total": 120.7,
+   "email": "diego36@example.com",
+   "address": "9419 Congress Ave, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-2533": {
+   "id": "ORD-2533",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    }
+   ],
+   "total": 58.86,
+   "email": "omar50@example.com",
+   "address": "6559 Burnet Rd, Chicago, IL 60601",
+   "carrier": "FedEx",
+   "tracking": "1Z9392123763",
+   "eta": "2026-11-28"
+  },
+  "ORD-5422": {
+   "id": "ORD-5422",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    }
+   ],
+   "total": 20.67,
+   "email": "maya55@example.com",
+   "address": "7764 Guadalupe St, Chicago, IL 60601",
+   "carrier": "UPS",
+   "tracking": "1Z5609092097",
+   "eta": "delivered"
+  },
+  "ORD-8767": {
+   "id": "ORD-8767",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    },
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    }
+   ],
+   "total": 95.01,
+   "email": "omar20@example.com",
+   "address": "2501 Guadalupe St, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-2064": {
+   "id": "ORD-2064",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    },
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    }
+   ],
+   "total": 89.68,
+   "email": "maya17@example.com",
+   "address": "3820 Guadalupe St, Austin, TX 78701",
+   "carrier": "USPS",
+   "tracking": "1Z8365961816",
+   "eta": "2026-11-05"
+  },
+  "ORD-1994": {
+   "id": "ORD-1994",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    },
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 65.35,
+   "email": "chloe90@example.com",
+   "address": "1847 Oak St, Austin, TX 78701",
+   "carrier": "FedEx",
+   "tracking": "1Z3503497687",
+   "eta": "delivered"
+  },
+  "ORD-6072": {
+   "id": "ORD-6072",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    },
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    }
+   ],
+   "total": 113.99,
+   "email": "maya2@example.com",
+   "address": "8816 Congress Ave, Chicago, IL 60601",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-8301": {
+   "id": "ORD-8301",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    },
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 69.49,
+   "email": "omar61@example.com",
+   "address": "8632 Lamar Blvd, Miami, FL 33101",
+   "carrier": "UPS",
+   "tracking": "1Z8085192723",
+   "eta": "2026-11-02"
+  },
+  "ORD-5662": {
+   "id": "ORD-5662",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    }
+   ],
+   "total": 37.95,
+   "email": "diego87@example.com",
+   "address": "6891 Oak St, Round Rock, TX 78664",
+   "carrier": "UPS",
+   "tracking": "1Z8161235392",
+   "eta": "delivered"
+  },
+  "ORD-7320": {
+   "id": "ORD-7320",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    },
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    }
+   ],
+   "total": 60.39,
+   "email": "maya90@example.com",
+   "address": "5548 Burnet Rd, Chicago, IL 60601",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-6685": {
+   "id": "ORD-6685",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    },
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    }
+   ],
+   "total": 88.89,
+   "email": "omar1@example.com",
+   "address": "4795 Burnet Rd, Miami, FL 33101",
+   "carrier": "UPS",
+   "tracking": "1Z6176374424",
+   "eta": "2026-11-07"
+  },
+  "ORD-1369": {
+   "id": "ORD-1369",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    }
+   ],
+   "total": 67.02,
+   "email": "diego29@example.com",
+   "address": "4352 Elm Ct, Round Rock, TX 78664",
+   "carrier": "UPS",
+   "tracking": "1Z6254137170",
+   "eta": "delivered"
+  },
+  "ORD-8564": {
+   "id": "ORD-8564",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    },
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    },
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    }
+   ],
+   "total": 127.51,
+   "email": "lena51@example.com",
+   "address": "900 Lamar Blvd, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-6823": {
+   "id": "ORD-6823",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    },
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    }
+   ],
+   "total": 99.07,
+   "email": "ravi8@example.com",
+   "address": "3026 Riverside Dr, Chicago, IL 60601",
+   "carrier": "USPS",
+   "tracking": "1Z9089930132",
+   "eta": "2026-11-24"
+  },
+  "ORD-3753": {
+   "id": "ORD-3753",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    }
+   ],
+   "total": 21.33,
+   "email": "lena43@example.com",
+   "address": "3134 Lamar Blvd, Miami, FL 33101",
+   "carrier": "USPS",
+   "tracking": "1Z3008394699",
+   "eta": "delivered"
+  },
+  "ORD-2918": {
+   "id": "ORD-2918",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    },
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    }
+   ],
+   "total": 81.63,
+   "email": "chloe48@example.com",
+   "address": "5444 Riverside Dr, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-9088": {
+   "id": "ORD-9088",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    }
+   ],
+   "total": 32.9,
+   "email": "arjun36@example.com",
+   "address": "1333 Congress Ave, Chicago, IL 60601",
+   "carrier": "UPS",
+   "tracking": "1Z4259042513",
+   "eta": "2026-11-13"
+  },
+  "ORD-1965": {
+   "id": "ORD-1965",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    },
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    }
+   ],
+   "total": 86.6,
+   "email": "arjun7@example.com",
+   "address": "7767 Lamar Blvd, Round Rock, TX 78664",
+   "carrier": "USPS",
+   "tracking": "1Z9244217284",
+   "eta": "delivered"
+  },
+  "ORD-4575": {
+   "id": "ORD-4575",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 108.6,
+   "email": "ravi61@example.com",
+   "address": "506 Burnet Rd, Chicago, IL 60601",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-5709": {
+   "id": "ORD-5709",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    },
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    }
+   ],
+   "total": 67.41,
+   "email": "maya49@example.com",
+   "address": "581 Riverside Dr, Austin, TX 78701",
+   "carrier": "UPS",
+   "tracking": "1Z2103875130",
+   "eta": "2026-11-24"
+  },
+  "ORD-3119": {
+   "id": "ORD-3119",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    }
+   ],
+   "total": 47.39,
+   "email": "jonas47@example.com",
+   "address": "4471 Congress Ave, Miami, FL 33101",
+   "carrier": "UPS",
+   "tracking": "1Z6478790550",
+   "eta": "delivered"
+  },
+  "ORD-5056": {
+   "id": "ORD-5056",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    }
+   ],
+   "total": 37.67,
+   "email": "tom82@example.com",
+   "address": "1080 Oak St, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-7519": {
+   "id": "ORD-7519",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    }
+   ],
+   "total": 31.32,
+   "email": "ravi60@example.com",
+   "address": "6342 Elm Ct, Round Rock, TX 78664",
+   "carrier": "FedEx",
+   "tracking": "1Z8794507734",
+   "eta": "2026-11-05"
+  },
+  "ORD-7405": {
+   "id": "ORD-7405",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    },
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    },
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    }
+   ],
+   "total": 98.45,
+   "email": "priya89@example.com",
+   "address": "2489 Guadalupe St, Austin, TX 78704",
+   "carrier": "FedEx",
+   "tracking": "1Z8993975133",
+   "eta": "delivered"
+  },
+  "ORD-9134": {
+   "id": "ORD-9134",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    },
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    },
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    }
+   ],
+   "total": 130.31,
+   "email": "aisha26@example.com",
+   "address": "6427 Elm Ct, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-2320": {
+   "id": "ORD-2320",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    },
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    }
+   ],
+   "total": 84.24,
+   "email": "sana5@example.com",
+   "address": "7902 Guadalupe St, Miami, FL 33101",
+   "carrier": "FedEx",
+   "tracking": "1Z5604913804",
+   "eta": "2026-11-20"
+  },
+  "ORD-3725": {
+   "id": "ORD-3725",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    }
+   ],
+   "total": 37.95,
+   "email": "arjun54@example.com",
+   "address": "8177 Burnet Rd, Chicago, IL 60601",
+   "carrier": "UPS",
+   "tracking": "1Z2005865469",
+   "eta": "delivered"
+  },
+  "ORD-8359": {
+   "id": "ORD-8359",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    },
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    },
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    }
+   ],
+   "total": 134.96,
+   "email": "omar96@example.com",
+   "address": "8833 Elm Ct, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-7580": {
+   "id": "ORD-7580",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    },
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    }
+   ],
+   "total": 61.22,
+   "email": "tom35@example.com",
+   "address": "6120 Congress Ave, Round Rock, TX 78664",
+   "carrier": "UPS",
+   "tracking": "1Z2887199037",
+   "eta": "2026-11-06"
+  },
+  "ORD-5552": {
+   "id": "ORD-5552",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    },
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    }
+   ],
+   "total": 49.74,
+   "email": "priya75@example.com",
+   "address": "3094 Congress Ave, Austin, TX 78701",
+   "carrier": "FedEx",
+   "tracking": "1Z3260478873",
+   "eta": "delivered"
+  },
+  "ORD-3243": {
+   "id": "ORD-3243",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 22.48,
+   "email": "diego5@example.com",
+   "address": "1686 Oak St, Chicago, IL 60601",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-8053": {
+   "id": "ORD-8053",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 105.2,
+   "email": "maya38@example.com",
+   "address": "3825 Oak St, Austin, TX 78701",
+   "carrier": "UPS",
+   "tracking": "1Z5617590589",
+   "eta": "2026-11-17"
+  },
+  "ORD-5561": {
+   "id": "ORD-5561",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    },
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    }
+   ],
+   "total": 91.0,
+   "email": "priya86@example.com",
+   "address": "113 Oak St, Miami, FL 33101",
+   "carrier": "USPS",
+   "tracking": "1Z7957623598",
+   "eta": "delivered"
+  },
+  "ORD-7804": {
+   "id": "ORD-7804",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 97.75,
+   "email": "jonas19@example.com",
+   "address": "733 Lamar Blvd, Round Rock, TX 78664",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-6878": {
+   "id": "ORD-6878",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    }
+   ],
+   "total": 47.39,
+   "email": "ravi84@example.com",
+   "address": "3343 Elm Ct, Austin, TX 78701",
+   "carrier": "FedEx",
+   "tracking": "1Z2596908557",
+   "eta": "2026-11-20"
+  },
+  "ORD-7233": {
+   "id": "ORD-7233",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    }
+   ],
+   "total": 59.28,
+   "email": "maya64@example.com",
+   "address": "8989 Riverside Dr, Austin, TX 78701",
+   "carrier": "FedEx",
+   "tracking": "1Z3362823047",
+   "eta": "delivered"
+  },
+  "ORD-4780": {
+   "id": "ORD-4780",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 22.48,
+   "email": "lena51@example.com",
+   "address": "4452 Riverside Dr, Round Rock, TX 78664",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-3472": {
+   "id": "ORD-3472",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    },
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    }
+   ],
+   "total": 99.07,
+   "email": "priya96@example.com",
+   "address": "9291 Congress Ave, Chicago, IL 60601",
+   "carrier": "FedEx",
+   "tracking": "1Z8740476064",
+   "eta": "2026-11-21"
+  },
+  "ORD-2359": {
+   "id": "ORD-2359",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    },
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    }
+   ],
+   "total": 82.6,
+   "email": "chloe27@example.com",
+   "address": "106 Riverside Dr, Austin, TX 78704",
+   "carrier": "FedEx",
+   "tracking": "1Z5683610378",
+   "eta": "delivered"
+  },
+  "ORD-3887": {
+   "id": "ORD-3887",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    },
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    }
+   ],
+   "total": 71.49,
+   "email": "lena2@example.com",
+   "address": "856 Guadalupe St, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-3478": {
+   "id": "ORD-3478",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    },
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    }
+   ],
+   "total": 91.46,
+   "email": "jonas95@example.com",
+   "address": "8275 Lamar Blvd, Austin, TX 78704",
+   "carrier": "FedEx",
+   "tracking": "1Z2216742795",
+   "eta": "2026-11-17"
+  },
+  "ORD-4800": {
+   "id": "ORD-4800",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    }
+   ],
+   "total": 43.66,
+   "email": "chloe63@example.com",
+   "address": "3243 Congress Ave, Austin, TX 78704",
+   "carrier": "UPS",
+   "tracking": "1Z7368304724",
+   "eta": "delivered"
+  },
+  "ORD-4822": {
+   "id": "ORD-4822",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    }
+   ],
+   "total": 47.39,
+   "email": "sana50@example.com",
+   "address": "1423 Burnet Rd, Miami, FL 33101",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-1197": {
+   "id": "ORD-1197",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    }
+   ],
+   "total": 51.55,
+   "email": "tom52@example.com",
+   "address": "3223 Elm Ct, Chicago, IL 60601",
+   "carrier": "UPS",
+   "tracking": "1Z3428491666",
+   "eta": "2026-11-02"
+  },
+  "ORD-8945": {
+   "id": "ORD-8945",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    },
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    },
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    }
+   ],
+   "total": 115.68,
+   "email": "jonas16@example.com",
+   "address": "2458 Lamar Blvd, Austin, TX 78704",
+   "carrier": "UPS",
+   "tracking": "1Z3887306574",
+   "eta": "delivered"
+  },
+  "ORD-3987": {
+   "id": "ORD-3987",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    },
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    }
+   ],
+   "total": 67.26,
+   "email": "tom59@example.com",
+   "address": "9022 Elm Ct, Round Rock, TX 78664",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-5304": {
+   "id": "ORD-5304",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    },
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    }
+   ],
+   "total": 75.5,
+   "email": "chloe50@example.com",
+   "address": "6030 Riverside Dr, Miami, FL 33101",
+   "carrier": "FedEx",
+   "tracking": "1Z1767785202",
+   "eta": "2026-11-01"
+  },
+  "ORD-5619": {
+   "id": "ORD-5619",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    },
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    }
+   ],
+   "total": 120.07,
+   "email": "diego23@example.com",
+   "address": "7763 Riverside Dr, Austin, TX 78701",
+   "carrier": "UPS",
+   "tracking": "1Z5846681111",
+   "eta": "delivered"
+  },
+  "ORD-1067": {
+   "id": "ORD-1067",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    },
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    }
+   ],
+   "total": 126.53,
+   "email": "aisha66@example.com",
+   "address": "677 Oak St, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-3386": {
+   "id": "ORD-3386",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    }
+   ],
+   "total": 37.67,
+   "email": "jonas93@example.com",
+   "address": "8390 Oak St, Austin, TX 78701",
+   "carrier": "USPS",
+   "tracking": "1Z9138393905",
+   "eta": "2026-11-21"
+  },
+  "ORD-7864": {
+   "id": "ORD-7864",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    },
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    }
+   ],
+   "total": 54.23,
+   "email": "tom94@example.com",
+   "address": "1805 Lamar Blvd, Austin, TX 78704",
+   "carrier": "FedEx",
+   "tracking": "1Z4414395387",
+   "eta": "delivered"
+  },
+  "ORD-9758": {
+   "id": "ORD-9758",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 82.92,
+   "email": "tom97@example.com",
+   "address": "4142 Lamar Blvd, Round Rock, TX 78664",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-7049": {
+   "id": "ORD-7049",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    },
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    }
+   ],
+   "total": 64.28,
+   "email": "priya65@example.com",
+   "address": "7876 Lamar Blvd, Miami, FL 33101",
+   "carrier": "FedEx",
+   "tracking": "1Z6314588993",
+   "eta": "2026-11-12"
+  },
+  "ORD-6220": {
+   "id": "ORD-6220",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    }
+   ],
+   "total": 37.95,
+   "email": "lena52@example.com",
+   "address": "2651 Burnet Rd, Round Rock, TX 78664",
+   "carrier": "USPS",
+   "tracking": "1Z2618519046",
+   "eta": "delivered"
+  },
+  "ORD-3056": {
+   "id": "ORD-3056",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    },
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    }
+   ],
+   "total": 65.2,
+   "email": "maya82@example.com",
+   "address": "5904 Elm Ct, Chicago, IL 60601",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-9445": {
+   "id": "ORD-9445",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    }
+   ],
+   "total": 37.53,
+   "email": "aisha81@example.com",
+   "address": "6469 Burnet Rd, Round Rock, TX 78664",
+   "carrier": "FedEx",
+   "tracking": "1Z5922871938",
+   "eta": "2026-11-11"
+  },
+  "ORD-1884": {
+   "id": "ORD-1884",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    }
+   ],
+   "total": 43.61,
+   "email": "omar23@example.com",
+   "address": "801 Congress Ave, Miami, FL 33101",
+   "carrier": "FedEx",
+   "tracking": "1Z9142068197",
+   "eta": "delivered"
+  },
+  "ORD-8481": {
+   "id": "ORD-8481",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    }
+   ],
+   "total": 37.67,
+   "email": "maya29@example.com",
+   "address": "2457 Congress Ave, Miami, FL 33101",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-7428": {
+   "id": "ORD-7428",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    },
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 167.37,
+   "email": "maya17@example.com",
+   "address": "8011 Lamar Blvd, Miami, FL 33101",
+   "carrier": "USPS",
+   "tracking": "1Z1195780511",
+   "eta": "2026-11-02"
+  },
+  "ORD-7521": {
+   "id": "ORD-7521",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    }
+   ],
+   "total": 22.74,
+   "email": "jonas39@example.com",
+   "address": "1752 Guadalupe St, Round Rock, TX 78664",
+   "carrier": "USPS",
+   "tracking": "1Z6258152217",
+   "eta": "delivered"
+  },
+  "ORD-7536": {
+   "id": "ORD-7536",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    },
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    }
+   ],
+   "total": 43.41,
+   "email": "omar47@example.com",
+   "address": "7790 Lamar Blvd, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-7457": {
+   "id": "ORD-7457",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    }
+   ],
+   "total": 29.07,
+   "email": "ravi20@example.com",
+   "address": "7396 Oak St, Austin, TX 78701",
+   "carrier": "USPS",
+   "tracking": "1Z6453578282",
+   "eta": "2026-11-26"
+  },
+  "ORD-2696": {
+   "id": "ORD-2696",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    },
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    }
+   ],
+   "total": 69.06,
+   "email": "sana72@example.com",
+   "address": "5749 Guadalupe St, Miami, FL 33101",
+   "carrier": "FedEx",
+   "tracking": "1Z3116781777",
+   "eta": "delivered"
+  },
+  "ORD-8889": {
+   "id": "ORD-8889",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    },
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    }
+   ],
+   "total": 69.06,
+   "email": "maya69@example.com",
+   "address": "423 Riverside Dr, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-7560": {
+   "id": "ORD-7560",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    },
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    }
+   ],
+   "total": 64.04,
+   "email": "arjun2@example.com",
+   "address": "9036 Burnet Rd, Austin, TX 78704",
+   "carrier": "UPS",
+   "tracking": "1Z2774587163",
+   "eta": "2026-11-17"
+  },
+  "ORD-2019": {
+   "id": "ORD-2019",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    },
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    },
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    }
+   ],
+   "total": 118.14,
+   "email": "priya9@example.com",
+   "address": "4929 Burnet Rd, Austin, TX 78701",
+   "carrier": "USPS",
+   "tracking": "1Z8657815794",
+   "eta": "delivered"
+  },
+  "ORD-4122": {
+   "id": "ORD-4122",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    }
+   ],
+   "total": 44.93,
+   "email": "chloe96@example.com",
+   "address": "7632 Oak St, Chicago, IL 60601",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-2103": {
+   "id": "ORD-2103",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    },
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    }
+   ],
+   "total": 51.4,
+   "email": "priya30@example.com",
+   "address": "645 Oak St, Round Rock, TX 78664",
+   "carrier": "USPS",
+   "tracking": "1Z5520594327",
+   "eta": "2026-11-21"
+  },
+  "ORD-4420": {
+   "id": "ORD-4420",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    },
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    },
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    }
+   ],
+   "total": 124.36,
+   "email": "priya83@example.com",
+   "address": "3565 Oak St, Miami, FL 33101",
+   "carrier": "UPS",
+   "tracking": "1Z6024122110",
+   "eta": "delivered"
+  },
+  "ORD-8219": {
+   "id": "ORD-8219",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    },
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    }
+   ],
+   "total": 75.62,
+   "email": "lena96@example.com",
+   "address": "5365 Lamar Blvd, Chicago, IL 60601",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-3659": {
+   "id": "ORD-3659",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    }
+   ],
+   "total": 76.46,
+   "email": "chloe81@example.com",
+   "address": "8797 Riverside Dr, Chicago, IL 60601",
+   "carrier": "USPS",
+   "tracking": "1Z3996247415",
+   "eta": "2026-11-28"
+  },
+  "ORD-2801": {
+   "id": "ORD-2801",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    }
+   ],
+   "total": 62.91,
+   "email": "ravi30@example.com",
+   "address": "9354 Congress Ave, Austin, TX 78704",
+   "carrier": "FedEx",
+   "tracking": "1Z9924093123",
+   "eta": "delivered"
+  },
+  "ORD-6571": {
+   "id": "ORD-6571",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    },
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    }
+   ],
+   "total": 56.83,
+   "email": "maya15@example.com",
+   "address": "1757 Guadalupe St, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-1861": {
+   "id": "ORD-1861",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    },
+    {
+     "book_id": "BK-122",
+     "title": "Fluent Python",
+     "price": 27.47
+    }
+   ],
+   "total": 48.14,
+   "email": "maya4@example.com",
+   "address": "692 Lamar Blvd, Austin, TX 78701",
+   "carrier": "USPS",
+   "tracking": "1Z9881252303",
+   "eta": "2026-11-02"
+  },
+  "ORD-2677": {
+   "id": "ORD-2677",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    }
+   ],
+   "total": 22.74,
+   "email": "jonas26@example.com",
+   "address": "8757 Burnet Rd, Austin, TX 78701",
+   "carrier": "USPS",
+   "tracking": "1Z9350815725",
+   "eta": "delivered"
+  },
+  "ORD-1003": {
+   "id": "ORD-1003",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    }
+   ],
+   "total": 29.07,
+   "email": "omar27@example.com",
+   "address": "1844 Oak St, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-9791": {
+   "id": "ORD-9791",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 22.48,
+   "email": "sana37@example.com",
+   "address": "7827 Oak St, Austin, TX 78704",
+   "carrier": "UPS",
+   "tracking": "1Z3775924107",
+   "eta": "2026-11-10"
+  },
+  "ORD-2662": {
+   "id": "ORD-2662",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    },
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    }
+   ],
+   "total": 109.92,
+   "email": "priya3@example.com",
+   "address": "5759 Congress Ave, Round Rock, TX 78664",
+   "carrier": "UPS",
+   "tracking": "1Z7458502616",
+   "eta": "delivered"
+  },
+  "ORD-6957": {
+   "id": "ORD-6957",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    },
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    }
+   ],
+   "total": 85.06,
+   "email": "maya53@example.com",
+   "address": "521 Riverside Dr, Miami, FL 33101",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-1417": {
+   "id": "ORD-1417",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 61.59,
+   "email": "diego91@example.com",
+   "address": "798 Guadalupe St, Miami, FL 33101",
+   "carrier": "UPS",
+   "tracking": "1Z4555501905",
+   "eta": "2026-11-19"
+  },
+  "ORD-2152": {
+   "id": "ORD-2152",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    },
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    }
+   ],
+   "total": 90.79,
+   "email": "maya68@example.com",
+   "address": "3320 Congress Ave, Austin, TX 78701",
+   "carrier": "UPS",
+   "tracking": "1Z6788772696",
+   "eta": "delivered"
+  },
+  "ORD-4407": {
+   "id": "ORD-4407",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    }
+   ],
+   "total": 31.32,
+   "email": "ravi24@example.com",
+   "address": "8113 Guadalupe St, Round Rock, TX 78664",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-7164": {
+   "id": "ORD-7164",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    },
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    }
+   ],
+   "total": 50.62,
+   "email": "priya28@example.com",
+   "address": "3803 Riverside Dr, Austin, TX 78704",
+   "carrier": "UPS",
+   "tracking": "1Z4293421921",
+   "eta": "2026-11-16"
+  },
+  "ORD-3433": {
+   "id": "ORD-3433",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 22.48,
+   "email": "jonas46@example.com",
+   "address": "1568 Riverside Dr, Chicago, IL 60601",
+   "carrier": "USPS",
+   "tracking": "1Z5665077102",
+   "eta": "delivered"
+  },
+  "ORD-5132": {
+   "id": "ORD-5132",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 61.59,
+   "email": "omar39@example.com",
+   "address": "4322 Riverside Dr, Miami, FL 33101",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-6691": {
+   "id": "ORD-6691",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    },
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 67.41,
+   "email": "omar59@example.com",
+   "address": "2088 Guadalupe St, Miami, FL 33101",
+   "carrier": "USPS",
+   "tracking": "1Z3775836874",
+   "eta": "2026-11-12"
+  },
+  "ORD-6966": {
+   "id": "ORD-6966",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    },
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    }
+   ],
+   "total": 63.54,
+   "email": "diego85@example.com",
+   "address": "9082 Burnet Rd, Round Rock, TX 78664",
+   "carrier": "UPS",
+   "tracking": "1Z7284212050",
+   "eta": "delivered"
+  },
+  "ORD-8768": {
+   "id": "ORD-8768",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    }
+   ],
+   "total": 51.81,
+   "email": "lena43@example.com",
+   "address": "7579 Burnet Rd, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-3012": {
+   "id": "ORD-3012",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    },
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    }
+   ],
+   "total": 61.22,
+   "email": "ravi80@example.com",
+   "address": "2542 Burnet Rd, Austin, TX 78704",
+   "carrier": "UPS",
+   "tracking": "1Z8400915362",
+   "eta": "2026-11-20"
+  },
+  "ORD-2889": {
+   "id": "ORD-2889",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    }
+   ],
+   "total": 56.95,
+   "email": "jonas25@example.com",
+   "address": "4248 Burnet Rd, Austin, TX 78701",
+   "carrier": "UPS",
+   "tracking": "1Z1436531840",
+   "eta": "delivered"
+  },
+  "ORD-8996": {
+   "id": "ORD-8996",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    },
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    },
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    }
+   ],
+   "total": 82.03,
+   "email": "priya56@example.com",
+   "address": "4496 Lamar Blvd, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-8634": {
+   "id": "ORD-8634",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    }
+   ],
+   "total": 37.53,
+   "email": "omar50@example.com",
+   "address": "7610 Oak St, Austin, TX 78701",
+   "carrier": "FedEx",
+   "tracking": "1Z6567193628",
+   "eta": "2026-11-01"
+  },
+  "ORD-8870": {
+   "id": "ORD-8870",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    },
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    }
+   ],
+   "total": 84.92,
+   "email": "ravi52@example.com",
+   "address": "100 Burnet Rd, Austin, TX 78704",
+   "carrier": "FedEx",
+   "tracking": "1Z8074674854",
+   "eta": "delivered"
+  },
+  "ORD-8927": {
+   "id": "ORD-8927",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    },
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    }
+   ],
+   "total": 81.63,
+   "email": "sana83@example.com",
+   "address": "9574 Elm Ct, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-6109": {
+   "id": "ORD-6109",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    },
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    }
+   ],
+   "total": 44.81,
+   "email": "diego56@example.com",
+   "address": "5138 Congress Ave, Austin, TX 78701",
+   "carrier": "FedEx",
+   "tracking": "1Z5966950995",
+   "eta": "2026-11-28"
+  },
+  "ORD-2407": {
+   "id": "ORD-2407",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    },
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    },
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    }
+   ],
+   "total": 107.83,
+   "email": "tom53@example.com",
+   "address": "8501 Burnet Rd, Austin, TX 78704",
+   "carrier": "USPS",
+   "tracking": "1Z5340631850",
+   "eta": "delivered"
+  },
+  "ORD-3361": {
+   "id": "ORD-3361",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    },
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    },
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    }
+   ],
+   "total": 96.02,
+   "email": "aisha28@example.com",
+   "address": "2645 Burnet Rd, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-2674": {
+   "id": "ORD-2674",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    },
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    }
+   ],
+   "total": 45.07,
+   "email": "diego70@example.com",
+   "address": "3368 Burnet Rd, Chicago, IL 60601",
+   "carrier": "USPS",
+   "tracking": "1Z9659111281",
+   "eta": "2026-11-26"
+  },
+  "ORD-6613": {
+   "id": "ORD-6613",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    },
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    }
+   ],
+   "total": 89.88,
+   "email": "chloe95@example.com",
+   "address": "7496 Lamar Blvd, Austin, TX 78704",
+   "carrier": "FedEx",
+   "tracking": "1Z5005881753",
+   "eta": "delivered"
+  },
+  "ORD-5337": {
+   "id": "ORD-5337",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    },
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    }
+   ],
+   "total": 58.64,
+   "email": "priya36@example.com",
+   "address": "6266 Riverside Dr, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-8841": {
+   "id": "ORD-8841",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    }
+   ],
+   "total": 21.33,
+   "email": "chloe54@example.com",
+   "address": "5779 Guadalupe St, Round Rock, TX 78664",
+   "carrier": "UPS",
+   "tracking": "1Z6258875222",
+   "eta": "2026-11-24"
+  },
+  "ORD-3645": {
+   "id": "ORD-3645",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    },
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    }
+   ],
+   "total": 116.87,
+   "email": "diego28@example.com",
+   "address": "2705 Lamar Blvd, Austin, TX 78701",
+   "carrier": "USPS",
+   "tracking": "1Z6124634841",
+   "eta": "delivered"
+  },
+  "ORD-9459": {
+   "id": "ORD-9459",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 82.26,
+   "email": "sana82@example.com",
+   "address": "6781 Riverside Dr, Round Rock, TX 78664",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-1378": {
+   "id": "ORD-1378",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 92.91,
+   "email": "omar35@example.com",
+   "address": "6172 Burnet Rd, Round Rock, TX 78664",
+   "carrier": "FedEx",
+   "tracking": "1Z3915503764",
+   "eta": "2026-11-16"
+  },
+  "ORD-4362": {
+   "id": "ORD-4362",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    }
+   ],
+   "total": 37.67,
+   "email": "priya46@example.com",
+   "address": "4023 Burnet Rd, Round Rock, TX 78664",
+   "carrier": "FedEx",
+   "tracking": "1Z7354619128",
+   "eta": "delivered"
+  },
+  "ORD-9654": {
+   "id": "ORD-9654",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    },
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    },
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    }
+   ],
+   "total": 91.2,
+   "email": "sana47@example.com",
+   "address": "2512 Congress Ave, Chicago, IL 60601",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-6926": {
+   "id": "ORD-6926",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    }
+   ],
+   "total": 21.33,
+   "email": "tom42@example.com",
+   "address": "2310 Guadalupe St, Round Rock, TX 78664",
+   "carrier": "USPS",
+   "tracking": "1Z3501626662",
+   "eta": "2026-11-22"
+  },
+  "ORD-3401": {
+   "id": "ORD-3401",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    }
+   ],
+   "total": 37.95,
+   "email": "arjun84@example.com",
+   "address": "4810 Congress Ave, Miami, FL 33101",
+   "carrier": "UPS",
+   "tracking": "1Z3484583235",
+   "eta": "delivered"
+  },
+  "ORD-9899": {
+   "id": "ORD-9899",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    },
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    }
+   ],
+   "total": 71.49,
+   "email": "jonas20@example.com",
+   "address": "3426 Riverside Dr, Miami, FL 33101",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-1443": {
+   "id": "ORD-1443",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    },
+    {
+     "book_id": "BK-122",
+     "title": "Fluent Python",
+     "price": 27.47
+    }
+   ],
+   "total": 74.86,
+   "email": "tom12@example.com",
+   "address": "8996 Elm Ct, Round Rock, TX 78664",
+   "carrier": "UPS",
+   "tracking": "1Z9927583565",
+   "eta": "2026-11-27"
+  },
+  "ORD-9652": {
+   "id": "ORD-9652",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    },
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    },
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    }
+   ],
+   "total": 98.48,
+   "email": "arjun34@example.com",
+   "address": "6875 Lamar Blvd, Austin, TX 78704",
+   "carrier": "FedEx",
+   "tracking": "1Z5546027343",
+   "eta": "delivered"
+  },
+  "ORD-5883": {
+   "id": "ORD-5883",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    },
+    {
+     "book_id": "BK-122",
+     "title": "Fluent Python",
+     "price": 27.47
+    },
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    }
+   ],
+   "total": 79.46,
+   "email": "omar64@example.com",
+   "address": "2707 Guadalupe St, Miami, FL 33101",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-2491": {
+   "id": "ORD-2491",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    }
+   ],
+   "total": 27.88,
+   "email": "jonas60@example.com",
+   "address": "9227 Riverside Dr, Round Rock, TX 78664",
+   "carrier": "FedEx",
+   "tracking": "1Z6905399104",
+   "eta": "2026-11-14"
+  },
+  "ORD-5278": {
+   "id": "ORD-5278",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    }
+   ],
+   "total": 27.88,
+   "email": "sana47@example.com",
+   "address": "477 Oak St, Miami, FL 33101",
+   "carrier": "UPS",
+   "tracking": "1Z5216423684",
+   "eta": "delivered"
+  },
+  "ORD-9493": {
+   "id": "ORD-9493",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    },
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    },
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    }
+   ],
+   "total": 88.15,
+   "email": "omar92@example.com",
+   "address": "6819 Burnet Rd, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-7008": {
+   "id": "ORD-7008",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    },
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    }
+   ],
+   "total": 66.29,
+   "email": "jonas44@example.com",
+   "address": "7784 Elm Ct, Miami, FL 33101",
+   "carrier": "USPS",
+   "tracking": "1Z6200025520",
+   "eta": "2026-11-14"
+  },
+  "ORD-3736": {
+   "id": "ORD-3736",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    },
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    }
+   ],
+   "total": 100.44,
+   "email": "aisha7@example.com",
+   "address": "4747 Congress Ave, Round Rock, TX 78664",
+   "carrier": "FedEx",
+   "tracking": "1Z7028973153",
+   "eta": "delivered"
+  },
+  "ORD-6827": {
+   "id": "ORD-6827",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 104.46,
+   "email": "omar84@example.com",
+   "address": "8074 Elm Ct, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-4650": {
+   "id": "ORD-4650",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    },
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    }
+   ],
+   "total": 84.96,
+   "email": "ravi39@example.com",
+   "address": "2100 Guadalupe St, Austin, TX 78701",
+   "carrier": "UPS",
+   "tracking": "1Z3465500449",
+   "eta": "2026-11-13"
+  },
+  "ORD-9725": {
+   "id": "ORD-9725",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    },
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    }
+   ],
+   "total": 55.23,
+   "email": "maya25@example.com",
+   "address": "7793 Guadalupe St, Austin, TX 78701",
+   "carrier": "USPS",
+   "tracking": "1Z7922371038",
+   "eta": "delivered"
+  },
+  "ORD-9873": {
+   "id": "ORD-9873",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    },
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    }
+   ],
+   "total": 66.44,
+   "email": "ravi89@example.com",
+   "address": "9779 Burnet Rd, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-9236": {
+   "id": "ORD-9236",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    },
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    }
+   ],
+   "total": 80.12,
+   "email": "sana59@example.com",
+   "address": "2859 Oak St, Austin, TX 78704",
+   "carrier": "UPS",
+   "tracking": "1Z5352633529",
+   "eta": "2026-11-28"
+  },
+  "ORD-6401": {
+   "id": "ORD-6401",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    },
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    }
+   ],
+   "total": 55.88,
+   "email": "ravi34@example.com",
+   "address": "4958 Lamar Blvd, Chicago, IL 60601",
+   "carrier": "UPS",
+   "tracking": "1Z2367848684",
+   "eta": "delivered"
+  },
+  "ORD-4654": {
+   "id": "ORD-4654",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    },
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    },
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    }
+   ],
+   "total": 81.38,
+   "email": "diego73@example.com",
+   "address": "8564 Oak St, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-4197": {
+   "id": "ORD-4197",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    },
+    {
+     "book_id": "BK-122",
+     "title": "Fluent Python",
+     "price": 27.47
+    },
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    }
+   ],
+   "total": 95.14,
+   "email": "diego9@example.com",
+   "address": "241 Burnet Rd, Chicago, IL 60601",
+   "carrier": "USPS",
+   "tracking": "1Z5212437397",
+   "eta": "2026-11-16"
+  },
+  "ORD-4922": {
+   "id": "ORD-4922",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    },
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    },
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    }
+   ],
+   "total": 75.85,
+   "email": "sana61@example.com",
+   "address": "3487 Lamar Blvd, Austin, TX 78701",
+   "carrier": "FedEx",
+   "tracking": "1Z1020544041",
+   "eta": "delivered"
+  },
+  "ORD-7564": {
+   "id": "ORD-7564",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    }
+   ],
+   "total": 21.33,
+   "email": "omar16@example.com",
+   "address": "2123 Riverside Dr, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-4714": {
+   "id": "ORD-4714",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    },
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    }
+   ],
+   "total": 60.41,
+   "email": "omar58@example.com",
+   "address": "3080 Oak St, Round Rock, TX 78664",
+   "carrier": "USPS",
+   "tracking": "1Z4674323442",
+   "eta": "2026-11-24"
+  },
+  "ORD-4275": {
+   "id": "ORD-4275",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    }
+   ],
+   "total": 23.69,
+   "email": "sana72@example.com",
+   "address": "8170 Riverside Dr, Round Rock, TX 78664",
+   "carrier": "UPS",
+   "tracking": "1Z4080393971",
+   "eta": "delivered"
+  },
+  "ORD-9480": {
+   "id": "ORD-9480",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    }
+   ],
+   "total": 36.16,
+   "email": "maya84@example.com",
+   "address": "1315 Riverside Dr, Round Rock, TX 78664",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-9073": {
+   "id": "ORD-9073",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    },
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    }
+   ],
+   "total": 85.06,
+   "email": "lena63@example.com",
+   "address": "9987 Oak St, Round Rock, TX 78664",
+   "carrier": "FedEx",
+   "tracking": "1Z8420700538",
+   "eta": "2026-11-16"
+  },
+  "ORD-6825": {
+   "id": "ORD-6825",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    },
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    }
+   ],
+   "total": 43.0,
+   "email": "jonas83@example.com",
+   "address": "2697 Burnet Rd, Chicago, IL 60601",
+   "carrier": "FedEx",
+   "tracking": "1Z8671852121",
+   "eta": "delivered"
+  },
+  "ORD-1474": {
+   "id": "ORD-1474",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    },
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    }
+   ],
+   "total": 69.75,
+   "email": "priya36@example.com",
+   "address": "1003 Guadalupe St, Miami, FL 33101",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-1457": {
+   "id": "ORD-1457",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    },
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    }
+   ],
+   "total": 85.06,
+   "email": "maya20@example.com",
+   "address": "9859 Elm Ct, Round Rock, TX 78664",
+   "carrier": "USPS",
+   "tracking": "1Z4814463648",
+   "eta": "2026-11-13"
+  },
+  "ORD-5577": {
+   "id": "ORD-5577",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    },
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    },
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    }
+   ],
+   "total": 136.28,
+   "email": "omar58@example.com",
+   "address": "4651 Burnet Rd, Austin, TX 78701",
+   "carrier": "FedEx",
+   "tracking": "1Z6424735064",
+   "eta": "delivered"
+  },
+  "ORD-8737": {
+   "id": "ORD-8737",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    },
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    },
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    }
+   ],
+   "total": 86.78,
+   "email": "priya19@example.com",
+   "address": "9380 Lamar Blvd, Round Rock, TX 78664",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-5246": {
+   "id": "ORD-5246",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    },
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    },
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    }
+   ],
+   "total": 115.11,
+   "email": "aisha71@example.com",
+   "address": "7952 Elm Ct, Chicago, IL 60601",
+   "carrier": "UPS",
+   "tracking": "1Z5218845395",
+   "eta": "2026-11-10"
+  },
+  "ORD-4172": {
+   "id": "ORD-4172",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    }
+   ],
+   "total": 43.96,
+   "email": "chloe60@example.com",
+   "address": "3394 Congress Ave, Miami, FL 33101",
+   "carrier": "UPS",
+   "tracking": "1Z8695142480",
+   "eta": "delivered"
+  },
+  "ORD-6640": {
+   "id": "ORD-6640",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    },
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 115.11,
+   "email": "arjun30@example.com",
+   "address": "6533 Guadalupe St, Miami, FL 33101",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-8327": {
+   "id": "ORD-8327",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    },
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    }
+   ],
+   "total": 89.88,
+   "email": "diego65@example.com",
+   "address": "9665 Lamar Blvd, Austin, TX 78704",
+   "carrier": "UPS",
+   "tracking": "1Z1825982505",
+   "eta": "2026-11-06"
+  },
+  "ORD-6726": {
+   "id": "ORD-6726",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    },
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    }
+   ],
+   "total": 84.33,
+   "email": "tom46@example.com",
+   "address": "6604 Elm Ct, Miami, FL 33101",
+   "carrier": "UPS",
+   "tracking": "1Z2057871235",
+   "eta": "delivered"
+  },
+  "ORD-6974": {
+   "id": "ORD-6974",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    },
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    },
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 106.4,
+   "email": "diego11@example.com",
+   "address": "2568 Congress Ave, Miami, FL 33101",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-2319": {
+   "id": "ORD-2319",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 61.59,
+   "email": "priya67@example.com",
+   "address": "9957 Oak St, Austin, TX 78701",
+   "carrier": "UPS",
+   "tracking": "1Z7723661165",
+   "eta": "2026-11-19"
+  },
+  "ORD-4612": {
+   "id": "ORD-4612",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    },
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    }
+   ],
+   "total": 100.44,
+   "email": "arjun58@example.com",
+   "address": "9727 Elm Ct, Miami, FL 33101",
+   "carrier": "UPS",
+   "tracking": "1Z5457619963",
+   "eta": "delivered"
+  },
+  "ORD-2673": {
+   "id": "ORD-2673",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    },
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    }
+   ],
+   "total": 72.81,
+   "email": "arjun4@example.com",
+   "address": "845 Oak St, Miami, FL 33101",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-4716": {
+   "id": "ORD-4716",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-122",
+     "title": "Fluent Python",
+     "price": 27.47
+    },
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    }
+   ],
+   "total": 71.08,
+   "email": "diego9@example.com",
+   "address": "9808 Burnet Rd, Chicago, IL 60601",
+   "carrier": "UPS",
+   "tracking": "1Z5681330225",
+   "eta": "2026-11-11"
+  },
+  "ORD-8701": {
+   "id": "ORD-8701",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    },
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    }
+   ],
+   "total": 43.81,
+   "email": "sana65@example.com",
+   "address": "6450 Lamar Blvd, Chicago, IL 60601",
+   "carrier": "UPS",
+   "tracking": "1Z4095432323",
+   "eta": "delivered"
+  },
+  "ORD-4222": {
+   "id": "ORD-4222",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    },
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    }
+   ],
+   "total": 73.69,
+   "email": "jonas8@example.com",
+   "address": "9067 Oak St, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-6533": {
+   "id": "ORD-6533",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    },
+    {
+     "book_id": "BK-122",
+     "title": "Fluent Python",
+     "price": 27.47
+    }
+   ],
+   "total": 70.34,
+   "email": "ravi83@example.com",
+   "address": "7930 Oak St, Austin, TX 78701",
+   "carrier": "UPS",
+   "tracking": "1Z8508562170",
+   "eta": "2026-11-19"
+  },
+  "ORD-4348": {
+   "id": "ORD-4348",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    },
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    },
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    }
+   ],
+   "total": 76.13,
+   "email": "jonas48@example.com",
+   "address": "4220 Riverside Dr, Austin, TX 78701",
+   "carrier": "FedEx",
+   "tracking": "1Z7362191512",
+   "eta": "delivered"
+  },
+  "ORD-8907": {
+   "id": "ORD-8907",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    }
+   ],
+   "total": 72.68,
+   "email": "lena87@example.com",
+   "address": "216 Riverside Dr, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-1031": {
+   "id": "ORD-1031",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    }
+   ],
+   "total": 27.88,
+   "email": "omar10@example.com",
+   "address": "6122 Burnet Rd, Austin, TX 78704",
+   "carrier": "FedEx",
+   "tracking": "1Z5114380735",
+   "eta": "2026-11-13"
+  },
+  "ORD-8855": {
+   "id": "ORD-8855",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 22.48,
+   "email": "arjun58@example.com",
+   "address": "5576 Congress Ave, Austin, TX 78704",
+   "carrier": "FedEx",
+   "tracking": "1Z2572095809",
+   "eta": "delivered"
+  },
+  "ORD-6636": {
+   "id": "ORD-6636",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    },
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    }
+   ],
+   "total": 66.74,
+   "email": "maya24@example.com",
+   "address": "7405 Guadalupe St, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-2389": {
+   "id": "ORD-2389",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    },
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    },
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    }
+   ],
+   "total": 121.11,
+   "email": "chloe32@example.com",
+   "address": "2560 Oak St, Round Rock, TX 78664",
+   "carrier": "USPS",
+   "tracking": "1Z8900864479",
+   "eta": "2026-11-11"
+  },
+  "ORD-2964": {
+   "id": "ORD-2964",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    },
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    }
+   ],
+   "total": 68.85,
+   "email": "arjun41@example.com",
+   "address": "7484 Riverside Dr, Austin, TX 78701",
+   "carrier": "UPS",
+   "tracking": "1Z9834116035",
+   "eta": "delivered"
+  },
+  "ORD-7365": {
+   "id": "ORD-7365",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    },
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    }
+   ],
+   "total": 63.51,
+   "email": "priya16@example.com",
+   "address": "4233 Elm Ct, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-4265": {
+   "id": "ORD-4265",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    },
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    }
+   ],
+   "total": 100.44,
+   "email": "omar31@example.com",
+   "address": "1608 Riverside Dr, Round Rock, TX 78664",
+   "carrier": "FedEx",
+   "tracking": "1Z4849147396",
+   "eta": "2026-11-02"
+  },
+  "ORD-8832": {
+   "id": "ORD-8832",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    },
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 43.15,
+   "email": "maya57@example.com",
+   "address": "8329 Congress Ave, Miami, FL 33101",
+   "carrier": "UPS",
+   "tracking": "1Z2902705915",
+   "eta": "delivered"
+  },
+  "ORD-3924": {
+   "id": "ORD-3924",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 89.47,
+   "email": "chloe6@example.com",
+   "address": "6710 Lamar Blvd, Round Rock, TX 78664",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-8109": {
+   "id": "ORD-8109",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    },
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    }
+   ],
+   "total": 48.55,
+   "email": "aisha99@example.com",
+   "address": "3785 Burnet Rd, Austin, TX 78704",
+   "carrier": "UPS",
+   "tracking": "1Z3579780591",
+   "eta": "2026-11-27"
+  },
+  "ORD-6447": {
+   "id": "ORD-6447",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    }
+   ],
+   "total": 47.39,
+   "email": "ravi64@example.com",
+   "address": "4497 Lamar Blvd, Austin, TX 78704",
+   "carrier": "UPS",
+   "tracking": "1Z4485725530",
+   "eta": "delivered"
+  },
+  "ORD-2421": {
+   "id": "ORD-2421",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    },
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    }
+   ],
+   "total": 70.85,
+   "email": "arjun89@example.com",
+   "address": "8522 Riverside Dr, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-7485": {
+   "id": "ORD-7485",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    },
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    }
+   ],
+   "total": 70.7,
+   "email": "sana64@example.com",
+   "address": "1489 Oak St, Chicago, IL 60601",
+   "carrier": "FedEx",
+   "tracking": "1Z8153191755",
+   "eta": "2026-11-08"
+  },
+  "ORD-8588": {
+   "id": "ORD-8588",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 84.33,
+   "email": "maya21@example.com",
+   "address": "6091 Guadalupe St, Miami, FL 33101",
+   "carrier": "UPS",
+   "tracking": "1Z9298387549",
+   "eta": "delivered"
+  },
+  "ORD-7576": {
+   "id": "ORD-7576",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    }
+   ],
+   "total": 22.33,
+   "email": "jonas92@example.com",
+   "address": "4019 Elm Ct, Round Rock, TX 78664",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-2391": {
+   "id": "ORD-2391",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    },
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    },
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    }
+   ],
+   "total": 82.59,
+   "email": "arjun94@example.com",
+   "address": "8116 Riverside Dr, Miami, FL 33101",
+   "carrier": "UPS",
+   "tracking": "1Z3307821018",
+   "eta": "2026-11-01"
+  },
+  "ORD-3602": {
+   "id": "ORD-3602",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    }
+   ],
+   "total": 50.4,
+   "email": "tom24@example.com",
+   "address": "2760 Oak St, Round Rock, TX 78664",
+   "carrier": "FedEx",
+   "tracking": "1Z5103214393",
+   "eta": "delivered"
+  },
+  "ORD-3785": {
+   "id": "ORD-3785",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    }
+   ],
+   "total": 22.33,
+   "email": "ravi95@example.com",
+   "address": "3206 Congress Ave, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-3081": {
+   "id": "ORD-3081",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    },
+    {
+     "book_id": "BK-122",
+     "title": "Fluent Python",
+     "price": 27.47
+    }
+   ],
+   "total": 99.41,
+   "email": "diego14@example.com",
+   "address": "5755 Elm Ct, Austin, TX 78701",
+   "carrier": "USPS",
+   "tracking": "1Z1768676181",
+   "eta": "2026-11-09"
+  },
+  "ORD-1451": {
+   "id": "ORD-1451",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    }
+   ],
+   "total": 43.61,
+   "email": "diego75@example.com",
+   "address": "8214 Elm Ct, Round Rock, TX 78664",
+   "carrier": "UPS",
+   "tracking": "1Z1524146568",
+   "eta": "delivered"
+  },
+  "ORD-3476": {
+   "id": "ORD-3476",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    },
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    },
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    }
+   ],
+   "total": 75.6,
+   "email": "omar30@example.com",
+   "address": "2422 Burnet Rd, Miami, FL 33101",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-8624": {
+   "id": "ORD-8624",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    },
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    },
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    }
+   ],
+   "total": 110.48,
+   "email": "maya82@example.com",
+   "address": "6379 Burnet Rd, Chicago, IL 60601",
+   "carrier": "USPS",
+   "tracking": "1Z3257501070",
+   "eta": "2026-11-13"
+  },
+  "ORD-3394": {
+   "id": "ORD-3394",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 61.59,
+   "email": "jonas52@example.com",
+   "address": "3948 Elm Ct, Round Rock, TX 78664",
+   "carrier": "USPS",
+   "tracking": "1Z9215288185",
+   "eta": "delivered"
+  },
+  "ORD-8771": {
+   "id": "ORD-8771",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    },
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    },
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    }
+   ],
+   "total": 115.36,
+   "email": "aisha19@example.com",
+   "address": "5800 Lamar Blvd, Chicago, IL 60601",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-6741": {
+   "id": "ORD-6741",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 61.59,
+   "email": "arjun68@example.com",
+   "address": "3081 Oak St, Round Rock, TX 78664",
+   "carrier": "FedEx",
+   "tracking": "1Z3873936029",
+   "eta": "2026-11-08"
+  },
+  "ORD-3554": {
+   "id": "ORD-3554",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    },
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    }
+   ],
+   "total": 107.84,
+   "email": "diego82@example.com",
+   "address": "776 Elm Ct, Austin, TX 78701",
+   "carrier": "UPS",
+   "tracking": "1Z7961823750",
+   "eta": "delivered"
+  },
+  "ORD-9989": {
+   "id": "ORD-9989",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    },
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    }
+   ],
+   "total": 54.67,
+   "email": "maya80@example.com",
+   "address": "1656 Congress Ave, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-9983": {
+   "id": "ORD-9983",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    }
+   ],
+   "total": 62.91,
+   "email": "omar6@example.com",
+   "address": "4720 Oak St, Round Rock, TX 78664",
+   "carrier": "FedEx",
+   "tracking": "1Z3781077661",
+   "eta": "2026-11-04"
+  },
+  "ORD-3146": {
+   "id": "ORD-3146",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    }
+   ],
+   "total": 47.39,
+   "email": "aisha35@example.com",
+   "address": "1394 Riverside Dr, Miami, FL 33101",
+   "carrier": "USPS",
+   "tracking": "1Z5002591813",
+   "eta": "delivered"
+  },
+  "ORD-1350": {
+   "id": "ORD-1350",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    },
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    },
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    }
+   ],
+   "total": 85.87,
+   "email": "priya53@example.com",
+   "address": "9469 Congress Ave, Round Rock, TX 78664",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-1233": {
+   "id": "ORD-1233",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    },
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    }
+   ],
+   "total": 59.0,
+   "email": "ravi70@example.com",
+   "address": "4714 Elm Ct, Chicago, IL 60601",
+   "carrier": "USPS",
+   "tracking": "1Z2660655344",
+   "eta": "2026-11-18"
+  },
+  "ORD-2683": {
+   "id": "ORD-2683",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    },
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    }
+   ],
+   "total": 75.8,
+   "email": "priya79@example.com",
+   "address": "7839 Riverside Dr, Round Rock, TX 78664",
+   "carrier": "UPS",
+   "tracking": "1Z6335442216",
+   "eta": "delivered"
+  },
+  "ORD-9627": {
+   "id": "ORD-9627",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    },
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    }
+   ],
+   "total": 80.82,
+   "email": "aisha50@example.com",
+   "address": "9605 Riverside Dr, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-3281": {
+   "id": "ORD-3281",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    }
+   ],
+   "total": 56.95,
+   "email": "jonas72@example.com",
+   "address": "5342 Riverside Dr, Round Rock, TX 78664",
+   "carrier": "FedEx",
+   "tracking": "1Z6223285925",
+   "eta": "2026-11-02"
+  },
+  "ORD-8107": {
+   "id": "ORD-8107",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    }
+   ],
+   "total": 27.88,
+   "email": "aisha9@example.com",
+   "address": "9937 Elm Ct, Round Rock, TX 78664",
+   "carrier": "FedEx",
+   "tracking": "1Z3824878489",
+   "eta": "delivered"
+  },
+  "ORD-4191": {
+   "id": "ORD-4191",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    },
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    }
+   ],
+   "total": 142.87,
+   "email": "arjun67@example.com",
+   "address": "3699 Burnet Rd, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-4457": {
+   "id": "ORD-4457",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    },
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 152.56,
+   "email": "lena87@example.com",
+   "address": "3327 Guadalupe St, Miami, FL 33101",
+   "carrier": "FedEx",
+   "tracking": "1Z3223799244",
+   "eta": "2026-11-24"
+  },
+  "ORD-1458": {
+   "id": "ORD-1458",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    },
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    },
+    {
+     "book_id": "BK-122",
+     "title": "Fluent Python",
+     "price": 27.47
+    }
+   ],
+   "total": 87.48,
+   "email": "sana91@example.com",
+   "address": "2095 Riverside Dr, Austin, TX 78701",
+   "carrier": "UPS",
+   "tracking": "1Z5799401648",
+   "eta": "delivered"
+  },
+  "ORD-5126": {
+   "id": "ORD-5126",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    },
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    },
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    }
+   ],
+   "total": 106.32,
+   "email": "priya80@example.com",
+   "address": "9960 Oak St, Chicago, IL 60601",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-4486": {
+   "id": "ORD-4486",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-122",
+     "title": "Fluent Python",
+     "price": 27.47
+    },
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    },
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    }
+   ],
+   "total": 94.77,
+   "email": "ravi46@example.com",
+   "address": "4809 Congress Ave, Chicago, IL 60601",
+   "carrier": "USPS",
+   "tracking": "1Z2382952715",
+   "eta": "2026-11-26"
+  },
+  "ORD-5799": {
+   "id": "ORD-5799",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    },
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    },
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    }
+   ],
+   "total": 112.23,
+   "email": "lena69@example.com",
+   "address": "4991 Elm Ct, Austin, TX 78704",
+   "carrier": "FedEx",
+   "tracking": "1Z7766432364",
+   "eta": "delivered"
+  },
+  "ORD-9211": {
+   "id": "ORD-9211",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    }
+   ],
+   "total": 68.34,
+   "email": "jonas78@example.com",
+   "address": "3985 Congress Ave, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-4940": {
+   "id": "ORD-4940",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    },
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    },
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    }
+   ],
+   "total": 106.59,
+   "email": "tom64@example.com",
+   "address": "4922 Guadalupe St, Round Rock, TX 78664",
+   "carrier": "USPS",
+   "tracking": "1Z7142044977",
+   "eta": "2026-11-15"
+  },
+  "ORD-6341": {
+   "id": "ORD-6341",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    },
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    }
+   ],
+   "total": 83.55,
+   "email": "sana45@example.com",
+   "address": "7433 Oak St, Austin, TX 78701",
+   "carrier": "USPS",
+   "tracking": "1Z1984714670",
+   "eta": "delivered"
+  },
+  "ORD-5249": {
+   "id": "ORD-5249",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    },
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    },
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    }
+   ],
+   "total": 149.39,
+   "email": "sana72@example.com",
+   "address": "9415 Lamar Blvd, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-9918": {
+   "id": "ORD-9918",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    },
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    },
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    }
+   ],
+   "total": 119.86,
+   "email": "tom76@example.com",
+   "address": "5634 Burnet Rd, Miami, FL 33101",
+   "carrier": "USPS",
+   "tracking": "1Z4504204000",
+   "eta": "2026-11-06"
+  },
+  "ORD-7865": {
+   "id": "ORD-7865",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 108.6,
+   "email": "arjun40@example.com",
+   "address": "8408 Lamar Blvd, Austin, TX 78701",
+   "carrier": "USPS",
+   "tracking": "1Z9136863104",
+   "eta": "delivered"
+  },
+  "ORD-3147": {
+   "id": "ORD-3147",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    },
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    }
+   ],
+   "total": 105.78,
+   "email": "sana21@example.com",
+   "address": "8596 Congress Ave, Miami, FL 33101",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-1997": {
+   "id": "ORD-1997",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    },
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    }
+   ],
+   "total": 80.82,
+   "email": "chloe24@example.com",
+   "address": "995 Burnet Rd, Miami, FL 33101",
+   "carrier": "USPS",
+   "tracking": "1Z5752897749",
+   "eta": "2026-11-19"
+  },
+  "ORD-6796": {
+   "id": "ORD-6796",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-122",
+     "title": "Fluent Python",
+     "price": 27.47
+    }
+   ],
+   "total": 27.47,
+   "email": "chloe2@example.com",
+   "address": "55 Congress Ave, Miami, FL 33101",
+   "carrier": "UPS",
+   "tracking": "1Z9233590207",
+   "eta": "delivered"
+  },
+  "ORD-8506": {
+   "id": "ORD-8506",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    },
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    },
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    }
+   ],
+   "total": 77.97,
+   "email": "sana4@example.com",
+   "address": "3231 Lamar Blvd, Chicago, IL 60601",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-9466": {
+   "id": "ORD-9466",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    },
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    }
+   ],
+   "total": 54.67,
+   "email": "aisha19@example.com",
+   "address": "9422 Lamar Blvd, Chicago, IL 60601",
+   "carrier": "USPS",
+   "tracking": "1Z1521844312",
+   "eta": "2026-11-06"
+  },
+  "ORD-7891": {
+   "id": "ORD-7891",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    }
+   ],
+   "total": 32.9,
+   "email": "arjun10@example.com",
+   "address": "2804 Guadalupe St, Chicago, IL 60601",
+   "carrier": "FedEx",
+   "tracking": "1Z7927800491",
+   "eta": "delivered"
+  },
+  "ORD-9219": {
+   "id": "ORD-9219",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 22.48,
+   "email": "maya88@example.com",
+   "address": "9493 Congress Ave, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-3142": {
+   "id": "ORD-3142",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    },
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    }
+   ],
+   "total": 99.12,
+   "email": "lena5@example.com",
+   "address": "4378 Burnet Rd, Austin, TX 78701",
+   "carrier": "USPS",
+   "tracking": "1Z5565647050",
+   "eta": "2026-11-07"
+  },
+  "ORD-9713": {
+   "id": "ORD-9713",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    },
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    },
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    }
+   ],
+   "total": 125.22,
+   "email": "maya29@example.com",
+   "address": "6497 Guadalupe St, Austin, TX 78701",
+   "carrier": "FedEx",
+   "tracking": "1Z9824372770",
+   "eta": "delivered"
+  },
+  "ORD-3487": {
+   "id": "ORD-3487",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    },
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    }
+   ],
+   "total": 65.23,
+   "email": "lena76@example.com",
+   "address": "2853 Congress Ave, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-9577": {
+   "id": "ORD-9577",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    },
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    },
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    }
+   ],
+   "total": 133.99,
+   "email": "priya64@example.com",
+   "address": "1116 Lamar Blvd, Chicago, IL 60601",
+   "carrier": "USPS",
+   "tracking": "1Z6245865871",
+   "eta": "2026-11-10"
+  },
+  "ORD-9364": {
+   "id": "ORD-9364",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-122",
+     "title": "Fluent Python",
+     "price": 27.47
+    },
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    },
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    }
+   ],
+   "total": 91.69,
+   "email": "omar12@example.com",
+   "address": "2852 Lamar Blvd, Round Rock, TX 78664",
+   "carrier": "FedEx",
+   "tracking": "1Z1801238109",
+   "eta": "delivered"
+  },
+  "ORD-1306": {
+   "id": "ORD-1306",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    },
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    }
+   ],
+   "total": 77.12,
+   "email": "jonas15@example.com",
+   "address": "5498 Guadalupe St, Chicago, IL 60601",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-8211": {
+   "id": "ORD-8211",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    },
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 67.41,
+   "email": "arjun16@example.com",
+   "address": "6928 Elm Ct, Round Rock, TX 78664",
+   "carrier": "USPS",
+   "tracking": "1Z6346959579",
+   "eta": "2026-11-07"
+  },
+  "ORD-4000": {
+   "id": "ORD-4000",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    }
+   ],
+   "total": 114.35,
+   "email": "chloe5@example.com",
+   "address": "4583 Burnet Rd, Austin, TX 78701",
+   "carrier": "FedEx",
+   "tracking": "1Z4456894721",
+   "eta": "delivered"
+  },
+  "ORD-1064": {
+   "id": "ORD-1064",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-122",
+     "title": "Fluent Python",
+     "price": 27.47
+    },
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    }
+   ],
+   "total": 48.14,
+   "email": "arjun26@example.com",
+   "address": "4428 Guadalupe St, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-3454": {
+   "id": "ORD-3454",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    },
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    }
+   ],
+   "total": 100.56,
+   "email": "jonas46@example.com",
+   "address": "3556 Burnet Rd, Chicago, IL 60601",
+   "carrier": "FedEx",
+   "tracking": "1Z3494270650",
+   "eta": "2026-11-10"
+  },
+  "ORD-3823": {
+   "id": "ORD-3823",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    },
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    }
+   ],
+   "total": 109.89,
+   "email": "diego87@example.com",
+   "address": "2155 Burnet Rd, Round Rock, TX 78664",
+   "carrier": "USPS",
+   "tracking": "1Z9158794400",
+   "eta": "delivered"
+  },
+  "ORD-3319": {
+   "id": "ORD-3319",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    }
+   ],
+   "total": 61.26,
+   "email": "chloe78@example.com",
+   "address": "8369 Lamar Blvd, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-8757": {
+   "id": "ORD-8757",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    }
+   ],
+   "total": 43.96,
+   "email": "aisha12@example.com",
+   "address": "8899 Elm Ct, Round Rock, TX 78664",
+   "carrier": "USPS",
+   "tracking": "1Z2652779195",
+   "eta": "2026-11-22"
+  },
+  "ORD-2971": {
+   "id": "ORD-2971",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    },
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    }
+   ],
+   "total": 56.59,
+   "email": "chloe91@example.com",
+   "address": "1419 Burnet Rd, Austin, TX 78704",
+   "carrier": "UPS",
+   "tracking": "1Z2378844115",
+   "eta": "delivered"
+  },
+  "ORD-2011": {
+   "id": "ORD-2011",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    }
+   ],
+   "total": 21.33,
+   "email": "aisha47@example.com",
+   "address": "8207 Elm Ct, Round Rock, TX 78664",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-6340": {
+   "id": "ORD-6340",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-122",
+     "title": "Fluent Python",
+     "price": 27.47
+    }
+   ],
+   "total": 48.8,
+   "email": "priya12@example.com",
+   "address": "3719 Congress Ave, Austin, TX 78704",
+   "carrier": "USPS",
+   "tracking": "1Z7008542209",
+   "eta": "2026-11-12"
+  },
+  "ORD-9492": {
+   "id": "ORD-9492",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    },
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    },
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    }
+   ],
+   "total": 86.76,
+   "email": "priya23@example.com",
+   "address": "494 Congress Ave, Round Rock, TX 78664",
+   "carrier": "FedEx",
+   "tracking": "1Z9698440949",
+   "eta": "delivered"
+  },
+  "ORD-9695": {
+   "id": "ORD-9695",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    },
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 135.59,
+   "email": "sana13@example.com",
+   "address": "2986 Congress Ave, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-8905": {
+   "id": "ORD-8905",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    },
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    }
+   ],
+   "total": 85.06,
+   "email": "omar92@example.com",
+   "address": "672 Riverside Dr, Austin, TX 78701",
+   "carrier": "USPS",
+   "tracking": "1Z5990808236",
+   "eta": "2026-11-07"
+  },
+  "ORD-2738": {
+   "id": "ORD-2738",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    },
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    }
+   ],
+   "total": 65.6,
+   "email": "ravi6@example.com",
+   "address": "9059 Congress Ave, Austin, TX 78704",
+   "carrier": "USPS",
+   "tracking": "1Z4605476344",
+   "eta": "delivered"
+  },
+  "ORD-1930": {
+   "id": "ORD-1930",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-122",
+     "title": "Fluent Python",
+     "price": 27.47
+    },
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    },
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    }
+   ],
+   "total": 107.87,
+   "email": "chloe86@example.com",
+   "address": "9435 Congress Ave, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-5071": {
+   "id": "ORD-5071",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 22.48,
+   "email": "priya6@example.com",
+   "address": "9596 Guadalupe St, Austin, TX 78701",
+   "carrier": "UPS",
+   "tracking": "1Z3925169283",
+   "eta": "2026-11-02"
+  },
+  "ORD-4134": {
+   "id": "ORD-4134",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 99.54,
+   "email": "ravi12@example.com",
+   "address": "6845 Burnet Rd, Chicago, IL 60601",
+   "carrier": "USPS",
+   "tracking": "1Z6243298904",
+   "eta": "delivered"
+  },
+  "ORD-5537": {
+   "id": "ORD-5537",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 61.59,
+   "email": "chloe57@example.com",
+   "address": "5585 Burnet Rd, Miami, FL 33101",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-1691": {
+   "id": "ORD-1691",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    },
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    },
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    }
+   ],
+   "total": 122.99,
+   "email": "ravi27@example.com",
+   "address": "7028 Burnet Rd, Miami, FL 33101",
+   "carrier": "UPS",
+   "tracking": "1Z1813020486",
+   "eta": "2026-11-23"
+  },
+  "ORD-2601": {
+   "id": "ORD-2601",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    },
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    }
+   ],
+   "total": 60.07,
+   "email": "lena82@example.com",
+   "address": "3876 Guadalupe St, Round Rock, TX 78664",
+   "carrier": "UPS",
+   "tracking": "1Z5138659327",
+   "eta": "delivered"
+  },
+  "ORD-9318": {
+   "id": "ORD-9318",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    },
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    }
+   ],
+   "total": 124.5,
+   "email": "arjun26@example.com",
+   "address": "5098 Lamar Blvd, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-8408": {
+   "id": "ORD-8408",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    },
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    }
+   ],
+   "total": 104.35,
+   "email": "ravi31@example.com",
+   "address": "106 Guadalupe St, Chicago, IL 60601",
+   "carrier": "UPS",
+   "tracking": "1Z2285794102",
+   "eta": "2026-11-23"
+  },
+  "ORD-1456": {
+   "id": "ORD-1456",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    }
+   ],
+   "total": 51.81,
+   "email": "jonas81@example.com",
+   "address": "1942 Guadalupe St, Chicago, IL 60601",
+   "carrier": "UPS",
+   "tracking": "1Z9501067910",
+   "eta": "delivered"
+  },
+  "ORD-2038": {
+   "id": "ORD-2038",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    },
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    },
+    {
+     "book_id": "BK-122",
+     "title": "Fluent Python",
+     "price": 27.47
+    }
+   ],
+   "total": 87.75,
+   "email": "priya2@example.com",
+   "address": "5916 Riverside Dr, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-8262": {
+   "id": "ORD-8262",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    }
+   ],
+   "total": 36.16,
+   "email": "priya39@example.com",
+   "address": "3239 Oak St, Round Rock, TX 78664",
+   "carrier": "FedEx",
+   "tracking": "1Z5135559169",
+   "eta": "2026-11-06"
+  },
+  "ORD-6334": {
+   "id": "ORD-6334",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    },
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    }
+   ],
+   "total": 66.35,
+   "email": "jonas38@example.com",
+   "address": "2764 Guadalupe St, Austin, TX 78701",
+   "carrier": "UPS",
+   "tracking": "1Z5341413743",
+   "eta": "delivered"
+  },
+  "ORD-9282": {
+   "id": "ORD-9282",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    },
+    {
+     "book_id": "BK-122",
+     "title": "Fluent Python",
+     "price": 27.47
+    }
+   ],
+   "total": 86.47,
+   "email": "jonas95@example.com",
+   "address": "9244 Congress Ave, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-9391": {
+   "id": "ORD-9391",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    },
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    },
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    }
+   ],
+   "total": 132.18,
+   "email": "aisha42@example.com",
+   "address": "146 Congress Ave, Austin, TX 78701",
+   "carrier": "USPS",
+   "tracking": "1Z8298707512",
+   "eta": "2026-11-21"
+  },
+  "ORD-4267": {
+   "id": "ORD-4267",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    }
+   ],
+   "total": 42.0,
+   "email": "ravi4@example.com",
+   "address": "424 Elm Ct, Chicago, IL 60601",
+   "carrier": "UPS",
+   "tracking": "1Z6567632071",
+   "eta": "delivered"
+  },
+  "ORD-5541": {
+   "id": "ORD-5541",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    },
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    }
+   ],
+   "total": 65.35,
+   "email": "sana22@example.com",
+   "address": "1684 Elm Ct, Round Rock, TX 78664",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-8411": {
+   "id": "ORD-8411",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    },
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    }
+   ],
+   "total": 72.81,
+   "email": "sana46@example.com",
+   "address": "5255 Lamar Blvd, Round Rock, TX 78664",
+   "carrier": "UPS",
+   "tracking": "1Z8865772167",
+   "eta": "2026-11-08"
+  },
+  "ORD-9325": {
+   "id": "ORD-9325",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    }
+   ],
+   "total": 36.16,
+   "email": "arjun73@example.com",
+   "address": "6616 Oak St, Austin, TX 78704",
+   "carrier": "FedEx",
+   "tracking": "1Z7111652594",
+   "eta": "delivered"
+  },
+  "ORD-9737": {
+   "id": "ORD-9737",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    },
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    }
+   ],
+   "total": 71.08,
+   "email": "tom81@example.com",
+   "address": "1324 Lamar Blvd, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-9319": {
+   "id": "ORD-9319",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    },
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    }
+   ],
+   "total": 64.28,
+   "email": "sana52@example.com",
+   "address": "1479 Oak St, Chicago, IL 60601",
+   "carrier": "FedEx",
+   "tracking": "1Z1819540915",
+   "eta": "2026-11-24"
+  },
+  "ORD-5057": {
+   "id": "ORD-5057",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    },
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    }
+   ],
+   "total": 69.06,
+   "email": "tom66@example.com",
+   "address": "6980 Lamar Blvd, Round Rock, TX 78664",
+   "carrier": "UPS",
+   "tracking": "1Z3841658107",
+   "eta": "delivered"
+  },
+  "ORD-9572": {
+   "id": "ORD-9572",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    },
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    }
+   ],
+   "total": 111.95,
+   "email": "maya86@example.com",
+   "address": "2898 Burnet Rd, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-5253": {
+   "id": "ORD-5253",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    },
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    },
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    }
+   ],
+   "total": 100.2,
+   "email": "tom87@example.com",
+   "address": "5713 Guadalupe St, Austin, TX 78704",
+   "carrier": "FedEx",
+   "tracking": "1Z9955186487",
+   "eta": "2026-11-11"
+  },
+  "ORD-4319": {
+   "id": "ORD-4319",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    },
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    },
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 117.58,
+   "email": "lena52@example.com",
+   "address": "9989 Guadalupe St, Austin, TX 78701",
+   "carrier": "UPS",
+   "tracking": "1Z8122928890",
+   "eta": "delivered"
+  },
+  "ORD-8332": {
+   "id": "ORD-8332",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    },
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    },
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    }
+   ],
+   "total": 136.87,
+   "email": "sana18@example.com",
+   "address": "4913 Elm Ct, Round Rock, TX 78664",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-3246": {
+   "id": "ORD-3246",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    }
+   ],
+   "total": 37.95,
+   "email": "omar87@example.com",
+   "address": "7339 Burnet Rd, Austin, TX 78701",
+   "carrier": "UPS",
+   "tracking": "1Z7083292440",
+   "eta": "2026-11-17"
+  },
+  "ORD-7826": {
+   "id": "ORD-7826",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    },
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    }
+   ],
+   "total": 66.35,
+   "email": "chloe34@example.com",
+   "address": "1881 Lamar Blvd, Austin, TX 78704",
+   "carrier": "UPS",
+   "tracking": "1Z1482203694",
+   "eta": "delivered"
+  },
+  "ORD-2992": {
+   "id": "ORD-2992",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    },
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    }
+   ],
+   "total": 44.81,
+   "email": "omar68@example.com",
+   "address": "4131 Burnet Rd, Chicago, IL 60601",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-8243": {
+   "id": "ORD-8243",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    },
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    }
+   ],
+   "total": 75.8,
+   "email": "omar70@example.com",
+   "address": "9393 Burnet Rd, Austin, TX 78701",
+   "carrier": "USPS",
+   "tracking": "1Z2887755736",
+   "eta": "2026-11-28"
+  },
+  "ORD-6177": {
+   "id": "ORD-6177",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 22.48,
+   "email": "ravi66@example.com",
+   "address": "1682 Riverside Dr, Chicago, IL 60601",
+   "carrier": "USPS",
+   "tracking": "1Z5123311622",
+   "eta": "delivered"
+  },
+  "ORD-2188": {
+   "id": "ORD-2188",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 103.59,
+   "email": "tom8@example.com",
+   "address": "6634 Lamar Blvd, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-4942": {
+   "id": "ORD-4942",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    },
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    }
+   ],
+   "total": 69.06,
+   "email": "ravi77@example.com",
+   "address": "3501 Riverside Dr, Round Rock, TX 78664",
+   "carrier": "UPS",
+   "tracking": "1Z4038373566",
+   "eta": "2026-11-14"
+  },
+  "ORD-8017": {
+   "id": "ORD-8017",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    }
+   ],
+   "total": 47.39,
+   "email": "omar73@example.com",
+   "address": "1889 Burnet Rd, Round Rock, TX 78664",
+   "carrier": "UPS",
+   "tracking": "1Z8909070718",
+   "eta": "delivered"
+  },
+  "ORD-2198": {
+   "id": "ORD-2198",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    }
+   ],
+   "total": 37.53,
+   "email": "arjun31@example.com",
+   "address": "6121 Guadalupe St, Miami, FL 33101",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-4484": {
+   "id": "ORD-4484",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    },
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    }
+   ],
+   "total": 68.99,
+   "email": "maya78@example.com",
+   "address": "5800 Oak St, Round Rock, TX 78664",
+   "carrier": "USPS",
+   "tracking": "1Z3590088775",
+   "eta": "2026-11-02"
+  },
+  "ORD-5960": {
+   "id": "ORD-5960",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 99.12,
+   "email": "omar89@example.com",
+   "address": "7329 Oak St, Miami, FL 33101",
+   "carrier": "FedEx",
+   "tracking": "1Z5384975600",
+   "eta": "delivered"
+  },
+  "ORD-3004": {
+   "id": "ORD-3004",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    }
+   ],
+   "total": 21.33,
+   "email": "priya24@example.com",
+   "address": "2471 Guadalupe St, Round Rock, TX 78664",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-3530": {
+   "id": "ORD-3530",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    },
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    },
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    }
+   ],
+   "total": 80.94,
+   "email": "aisha89@example.com",
+   "address": "4412 Riverside Dr, Austin, TX 78701",
+   "carrier": "UPS",
+   "tracking": "1Z5943221207",
+   "eta": "2026-11-17"
+  },
+  "ORD-6999": {
+   "id": "ORD-6999",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    },
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    }
+   ],
+   "total": 85.37,
+   "email": "tom83@example.com",
+   "address": "9839 Riverside Dr, Chicago, IL 60601",
+   "carrier": "UPS",
+   "tracking": "1Z7221634425",
+   "eta": "delivered"
+  },
+  "ORD-3342": {
+   "id": "ORD-3342",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    },
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    }
+   ],
+   "total": 90.26,
+   "email": "arjun47@example.com",
+   "address": "5404 Guadalupe St, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-5146": {
+   "id": "ORD-5146",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    },
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    }
+   ],
+   "total": 43.41,
+   "email": "tom6@example.com",
+   "address": "3473 Lamar Blvd, Round Rock, TX 78664",
+   "carrier": "USPS",
+   "tracking": "1Z7303980474",
+   "eta": "2026-11-19"
+  },
+  "ORD-3248": {
+   "id": "ORD-3248",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    },
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    }
+   ],
+   "total": 153.53,
+   "email": "maya43@example.com",
+   "address": "9498 Riverside Dr, Round Rock, TX 78664",
+   "carrier": "UPS",
+   "tracking": "1Z1088099255",
+   "eta": "delivered"
+  },
+  "ORD-8663": {
+   "id": "ORD-8663",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    },
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    },
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 106.03,
+   "email": "lena94@example.com",
+   "address": "2363 Congress Ave, Chicago, IL 60601",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-4597": {
+   "id": "ORD-4597",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    }
+   ],
+   "total": 64.2,
+   "email": "priya46@example.com",
+   "address": "9331 Guadalupe St, Miami, FL 33101",
+   "carrier": "USPS",
+   "tracking": "1Z5110114276",
+   "eta": "2026-11-23"
+  },
+  "ORD-2542": {
+   "id": "ORD-2542",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    }
+   ],
+   "total": 32.19,
+   "email": "arjun26@example.com",
+   "address": "6993 Burnet Rd, Miami, FL 33101",
+   "carrier": "USPS",
+   "tracking": "1Z5720137160",
+   "eta": "delivered"
+  },
+  "ORD-7525": {
+   "id": "ORD-7525",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    },
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    }
+   ],
+   "total": 49.74,
+   "email": "sana10@example.com",
+   "address": "4990 Elm Ct, Round Rock, TX 78664",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-8983": {
+   "id": "ORD-8983",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    },
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 65.35,
+   "email": "omar45@example.com",
+   "address": "9033 Burnet Rd, Chicago, IL 60601",
+   "carrier": "FedEx",
+   "tracking": "1Z9849561161",
+   "eta": "2026-11-11"
+  },
+  "ORD-3667": {
+   "id": "ORD-3667",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    },
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    }
+   ],
+   "total": 74.19,
+   "email": "jonas32@example.com",
+   "address": "3857 Congress Ave, Austin, TX 78704",
+   "carrier": "UPS",
+   "tracking": "1Z1882023576",
+   "eta": "delivered"
+  },
+  "ORD-4665": {
+   "id": "ORD-4665",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    },
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    },
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    }
+   ],
+   "total": 111.28,
+   "email": "priya22@example.com",
+   "address": "9624 Oak St, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-8070": {
+   "id": "ORD-8070",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    },
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    }
+   ],
+   "total": 61.36,
+   "email": "priya94@example.com",
+   "address": "9379 Guadalupe St, Round Rock, TX 78664",
+   "carrier": "UPS",
+   "tracking": "1Z4956628826",
+   "eta": "2026-11-19"
+  },
+  "ORD-9447": {
+   "id": "ORD-9447",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    }
+   ],
+   "total": 22.74,
+   "email": "lena39@example.com",
+   "address": "9520 Congress Ave, Chicago, IL 60601",
+   "carrier": "FedEx",
+   "tracking": "1Z8259698836",
+   "eta": "delivered"
+  },
+  "ORD-7616": {
+   "id": "ORD-7616",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    }
+   ],
+   "total": 31.32,
+   "email": "jonas23@example.com",
+   "address": "4529 Congress Ave, Miami, FL 33101",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-6556": {
+   "id": "ORD-6556",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    }
+   ],
+   "total": 27.88,
+   "email": "sana35@example.com",
+   "address": "3891 Burnet Rd, Austin, TX 78701",
+   "carrier": "UPS",
+   "tracking": "1Z5499813017",
+   "eta": "2026-11-15"
+  },
+  "ORD-7902": {
+   "id": "ORD-7902",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    },
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    }
+   ],
+   "total": 71.08,
+   "email": "aisha83@example.com",
+   "address": "1641 Lamar Blvd, Austin, TX 78704",
+   "carrier": "USPS",
+   "tracking": "1Z1208740052",
+   "eta": "delivered"
+  },
+  "ORD-4207": {
+   "id": "ORD-4207",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    }
+   ],
+   "total": 22.74,
+   "email": "jonas93@example.com",
+   "address": "2249 Oak St, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-6842": {
+   "id": "ORD-6842",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    },
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 54.67,
+   "email": "maya82@example.com",
+   "address": "5300 Oak St, Austin, TX 78704",
+   "carrier": "FedEx",
+   "tracking": "1Z4218323782",
+   "eta": "2026-11-21"
+  },
+  "ORD-6218": {
+   "id": "ORD-6218",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    },
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    },
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    }
+   ],
+   "total": 136.28,
+   "email": "jonas23@example.com",
+   "address": "951 Elm Ct, Chicago, IL 60601",
+   "carrier": "UPS",
+   "tracking": "1Z9964447347",
+   "eta": "delivered"
+  },
+  "ORD-2510": {
+   "id": "ORD-2510",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    },
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    }
+   ],
+   "total": 78.71,
+   "email": "chloe33@example.com",
+   "address": "7601 Elm Ct, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-6995": {
+   "id": "ORD-6995",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    }
+   ],
+   "total": 47.01,
+   "email": "tom84@example.com",
+   "address": "5145 Oak St, Chicago, IL 60601",
+   "carrier": "USPS",
+   "tracking": "1Z8880929262",
+   "eta": "2026-11-06"
+  },
+  "ORD-1319": {
+   "id": "ORD-1319",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    }
+   ],
+   "total": 32.9,
+   "email": "lena27@example.com",
+   "address": "2347 Guadalupe St, Austin, TX 78701",
+   "carrier": "FedEx",
+   "tracking": "1Z8791144920",
+   "eta": "delivered"
+  },
+  "ORD-6537": {
+   "id": "ORD-6537",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    },
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    },
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    }
+   ],
+   "total": 137.74,
+   "email": "tom72@example.com",
+   "address": "2523 Burnet Rd, Miami, FL 33101",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-8514": {
+   "id": "ORD-8514",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    },
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    }
+   ],
+   "total": 66.74,
+   "email": "tom34@example.com",
+   "address": "7834 Elm Ct, Austin, TX 78701",
+   "carrier": "USPS",
+   "tracking": "1Z6490096860",
+   "eta": "2026-11-17"
+  },
+  "ORD-8216": {
+   "id": "ORD-8216",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    },
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    }
+   ],
+   "total": 58.2,
+   "email": "maya72@example.com",
+   "address": "7804 Oak St, Round Rock, TX 78664",
+   "carrier": "UPS",
+   "tracking": "1Z6274939883",
+   "eta": "delivered"
+  },
+  "ORD-1296": {
+   "id": "ORD-1296",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    }
+   ],
+   "total": 32.9,
+   "email": "tom18@example.com",
+   "address": "2012 Oak St, Miami, FL 33101",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-7297": {
+   "id": "ORD-7297",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    },
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    }
+   ],
+   "total": 60.07,
+   "email": "priya78@example.com",
+   "address": "6000 Burnet Rd, Austin, TX 78704",
+   "carrier": "UPS",
+   "tracking": "1Z4346187332",
+   "eta": "2026-11-17"
+  },
+  "ORD-6431": {
+   "id": "ORD-6431",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 61.59,
+   "email": "ravi32@example.com",
+   "address": "7244 Elm Ct, Chicago, IL 60601",
+   "carrier": "UPS",
+   "tracking": "1Z8733236194",
+   "eta": "delivered"
+  },
+  "ORD-9477": {
+   "id": "ORD-9477",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    },
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    },
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    }
+   ],
+   "total": 117.86,
+   "email": "arjun85@example.com",
+   "address": "262 Oak St, Chicago, IL 60601",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-5840": {
+   "id": "ORD-5840",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    }
+   ],
+   "total": 65.23,
+   "email": "tom49@example.com",
+   "address": "6726 Riverside Dr, Austin, TX 78704",
+   "carrier": "UPS",
+   "tracking": "1Z2082025831",
+   "eta": "2026-11-09"
+  },
+  "ORD-9392": {
+   "id": "ORD-9392",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    },
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    }
+   ],
+   "total": 128.61,
+   "email": "jonas98@example.com",
+   "address": "6983 Burnet Rd, Round Rock, TX 78664",
+   "carrier": "FedEx",
+   "tracking": "1Z3141476551",
+   "eta": "delivered"
+  },
+  "ORD-2053": {
+   "id": "ORD-2053",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    },
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    }
+   ],
+   "total": 68.85,
+   "email": "lena39@example.com",
+   "address": "4639 Oak St, Round Rock, TX 78664",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-2848": {
+   "id": "ORD-2848",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    }
+   ],
+   "total": 31.32,
+   "email": "omar21@example.com",
+   "address": "5249 Burnet Rd, Miami, FL 33101",
+   "carrier": "USPS",
+   "tracking": "1Z9404514720",
+   "eta": "2026-11-07"
+  },
+  "ORD-4744": {
+   "id": "ORD-4744",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    }
+   ],
+   "total": 37.95,
+   "email": "ravi47@example.com",
+   "address": "766 Elm Ct, Chicago, IL 60601",
+   "carrier": "UPS",
+   "tracking": "1Z9315910583",
+   "eta": "delivered"
+  },
+  "ORD-2716": {
+   "id": "ORD-2716",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    }
+   ],
+   "total": 22.33,
+   "email": "lena2@example.com",
+   "address": "2195 Congress Ave, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-2377": {
+   "id": "ORD-2377",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    },
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    }
+   ],
+   "total": 50.21,
+   "email": "diego88@example.com",
+   "address": "6517 Oak St, Chicago, IL 60601",
+   "carrier": "FedEx",
+   "tracking": "1Z4843893593",
+   "eta": "2026-11-19"
+  },
+  "ORD-5351": {
+   "id": "ORD-5351",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    },
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 60.43,
+   "email": "ravi2@example.com",
+   "address": "630 Lamar Blvd, Miami, FL 33101",
+   "carrier": "USPS",
+   "tracking": "1Z1085620652",
+   "eta": "delivered"
+  },
+  "ORD-5455": {
+   "id": "ORD-5455",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    }
+   ],
+   "total": 43.66,
+   "email": "arjun63@example.com",
+   "address": "2235 Guadalupe St, Chicago, IL 60601",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-1648": {
+   "id": "ORD-1648",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    }
+   ],
+   "total": 27.88,
+   "email": "omar88@example.com",
+   "address": "8864 Lamar Blvd, Miami, FL 33101",
+   "carrier": "USPS",
+   "tracking": "1Z5266573824",
+   "eta": "2026-11-17"
+  },
+  "ORD-3974": {
+   "id": "ORD-3974",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    },
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    }
+   ],
+   "total": 52.65,
+   "email": "jonas28@example.com",
+   "address": "3679 Burnet Rd, Austin, TX 78701",
+   "carrier": "FedEx",
+   "tracking": "1Z4021864542",
+   "eta": "delivered"
+  },
+  "ORD-5430": {
+   "id": "ORD-5430",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    }
+   ],
+   "total": 37.53,
+   "email": "priya9@example.com",
+   "address": "717 Lamar Blvd, Miami, FL 33101",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-3122": {
+   "id": "ORD-3122",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    }
+   ],
+   "total": 62.91,
+   "email": "aisha47@example.com",
+   "address": "4387 Oak St, Round Rock, TX 78664",
+   "carrier": "USPS",
+   "tracking": "1Z9767779549",
+   "eta": "2026-11-15"
+  },
+  "ORD-7918": {
+   "id": "ORD-7918",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    },
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    }
+   ],
+   "total": 79.2,
+   "email": "ravi53@example.com",
+   "address": "4410 Riverside Dr, Chicago, IL 60601",
+   "carrier": "FedEx",
+   "tracking": "1Z7614235805",
+   "eta": "delivered"
+  },
+  "ORD-5237": {
+   "id": "ORD-5237",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    },
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    },
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    }
+   ],
+   "total": 128.51,
+   "email": "lena82@example.com",
+   "address": "96 Lamar Blvd, Miami, FL 33101",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-7651": {
+   "id": "ORD-7651",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-122",
+     "title": "Fluent Python",
+     "price": 27.47
+    },
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    }
+   ],
+   "total": 74.86,
+   "email": "ravi49@example.com",
+   "address": "3954 Elm Ct, Austin, TX 78704",
+   "carrier": "USPS",
+   "tracking": "1Z1498926562",
+   "eta": "2026-11-27"
+  },
+  "ORD-3447": {
+   "id": "ORD-3447",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-122",
+     "title": "Fluent Python",
+     "price": 27.47
+    }
+   ],
+   "total": 27.47,
+   "email": "maya52@example.com",
+   "address": "9160 Congress Ave, Chicago, IL 60601",
+   "carrier": "USPS",
+   "tracking": "1Z8164061068",
+   "eta": "delivered"
+  },
+  "ORD-9434": {
+   "id": "ORD-9434",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    },
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    },
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    }
+   ],
+   "total": 86.96,
+   "email": "ravi83@example.com",
+   "address": "7720 Guadalupe St, Round Rock, TX 78664",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-9103": {
+   "id": "ORD-9103",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    },
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    },
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    }
+   ],
+   "total": 89.22,
+   "email": "chloe46@example.com",
+   "address": "1060 Riverside Dr, Miami, FL 33101",
+   "carrier": "FedEx",
+   "tracking": "1Z2383566573",
+   "eta": "2026-11-21"
+  },
+  "ORD-6358": {
+   "id": "ORD-6358",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    },
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    }
+   ],
+   "total": 84.92,
+   "email": "priya61@example.com",
+   "address": "5707 Guadalupe St, Miami, FL 33101",
+   "carrier": "FedEx",
+   "tracking": "1Z3451161375",
+   "eta": "delivered"
+  },
+  "ORD-2465": {
+   "id": "ORD-2465",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    }
+   ],
+   "total": 64.2,
+   "email": "jonas68@example.com",
+   "address": "3366 Guadalupe St, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-5572": {
+   "id": "ORD-5572",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    },
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    }
+   ],
+   "total": 73.03,
+   "email": "lena20@example.com",
+   "address": "7551 Lamar Blvd, Austin, TX 78701",
+   "carrier": "FedEx",
+   "tracking": "1Z6932475489",
+   "eta": "2026-11-27"
+  },
+  "ORD-1942": {
+   "id": "ORD-1942",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    },
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    },
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    }
+   ],
+   "total": 105.91,
+   "email": "ravi33@example.com",
+   "address": "6156 Oak St, Round Rock, TX 78664",
+   "carrier": "FedEx",
+   "tracking": "1Z6593768282",
+   "eta": "delivered"
+  },
+  "ORD-4003": {
+   "id": "ORD-4003",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    }
+   ],
+   "total": 37.53,
+   "email": "chloe38@example.com",
+   "address": "7320 Burnet Rd, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-7968": {
+   "id": "ORD-7968",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    },
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    },
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    }
+   ],
+   "total": 91.47,
+   "email": "lena98@example.com",
+   "address": "8486 Lamar Blvd, Austin, TX 78701",
+   "carrier": "USPS",
+   "tracking": "1Z5855556991",
+   "eta": "2026-11-16"
+  },
+  "ORD-2186": {
+   "id": "ORD-2186",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 108.98,
+   "email": "aisha44@example.com",
+   "address": "6254 Congress Ave, Austin, TX 78701",
+   "carrier": "USPS",
+   "tracking": "1Z1862656467",
+   "eta": "delivered"
+  },
+  "ORD-5406": {
+   "id": "ORD-5406",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    },
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    }
+   ],
+   "total": 58.9,
+   "email": "lena40@example.com",
+   "address": "8933 Congress Ave, Round Rock, TX 78664",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-1275": {
+   "id": "ORD-1275",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    },
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    }
+   ],
+   "total": 66.6,
+   "email": "diego12@example.com",
+   "address": "8614 Burnet Rd, Chicago, IL 60601",
+   "carrier": "UPS",
+   "tracking": "1Z1866221643",
+   "eta": "2026-11-14"
+  },
+  "ORD-2451": {
+   "id": "ORD-2451",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-119",
+     "title": "System Design Interview",
+     "price": 47.39
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 108.98,
+   "email": "maya92@example.com",
+   "address": "7260 Riverside Dr, Round Rock, TX 78664",
+   "carrier": "UPS",
+   "tracking": "1Z7046988798",
+   "eta": "delivered"
+  },
+  "ORD-5268": {
+   "id": "ORD-5268",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    }
+   ],
+   "total": 90.66,
+   "email": "chloe75@example.com",
+   "address": "2131 Guadalupe St, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-2372": {
+   "id": "ORD-2372",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    }
+   ],
+   "total": 65.29,
+   "email": "omar43@example.com",
+   "address": "1169 Oak St, Chicago, IL 60601",
+   "carrier": "FedEx",
+   "tracking": "1Z7076142536",
+   "eta": "2026-11-21"
+  },
+  "ORD-4643": {
+   "id": "ORD-4643",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    }
+   ],
+   "total": 22.33,
+   "email": "tom73@example.com",
+   "address": "7588 Riverside Dr, Chicago, IL 60601",
+   "carrier": "FedEx",
+   "tracking": "1Z9568160073",
+   "eta": "delivered"
+  },
+  "ORD-2091": {
+   "id": "ORD-2091",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-114",
+     "title": "Building Microservices",
+     "price": 43.61
+    }
+   ],
+   "total": 64.94,
+   "email": "chloe63@example.com",
+   "address": "2226 Guadalupe St, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-5332": {
+   "id": "ORD-5332",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    },
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    }
+   ],
+   "total": 75.62,
+   "email": "chloe70@example.com",
+   "address": "674 Burnet Rd, Round Rock, TX 78664",
+   "carrier": "USPS",
+   "tracking": "1Z2975231587",
+   "eta": "2026-11-03"
+  },
+  "ORD-2993": {
+   "id": "ORD-2993",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    }
+   ],
+   "total": 44.07,
+   "email": "maya14@example.com",
+   "address": "8151 Oak St, Austin, TX 78704",
+   "carrier": "USPS",
+   "tracking": "1Z2951107427",
+   "eta": "delivered"
+  },
+  "ORD-8434": {
+   "id": "ORD-8434",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-122",
+     "title": "Fluent Python",
+     "price": 27.47
+    },
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    }
+   ],
+   "total": 74.48,
+   "email": "diego8@example.com",
+   "address": "9027 Burnet Rd, Chicago, IL 60601",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-1189": {
+   "id": "ORD-1189",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    },
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    }
+   ],
+   "total": 99.07,
+   "email": "sana19@example.com",
+   "address": "5260 Congress Ave, Austin, TX 78704",
+   "carrier": "USPS",
+   "tracking": "1Z5218645034",
+   "eta": "2026-11-06"
+  },
+  "ORD-7844": {
+   "id": "ORD-7844",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    },
+    {
+     "book_id": "BK-108",
+     "title": "Working Effectively with Legacy Code",
+     "price": 37.53
+    }
+   ],
+   "total": 80.4,
+   "email": "arjun41@example.com",
+   "address": "6296 Congress Ave, Round Rock, TX 78664",
+   "carrier": "USPS",
+   "tracking": "1Z9099438361",
+   "eta": "delivered"
+  },
+  "ORD-5388": {
+   "id": "ORD-5388",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    }
+   ],
+   "total": 23.69,
+   "email": "priya32@example.com",
+   "address": "6239 Elm Ct, Chicago, IL 60601",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-3117": {
+   "id": "ORD-3117",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    },
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    }
+   ],
+   "total": 61.64,
+   "email": "lena7@example.com",
+   "address": "3409 Guadalupe St, Round Rock, TX 78664",
+   "carrier": "FedEx",
+   "tracking": "1Z8113848101",
+   "eta": "2026-11-23"
+  },
+  "ORD-1707": {
+   "id": "ORD-1707",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    },
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    }
+   ],
+   "total": 108.6,
+   "email": "omar59@example.com",
+   "address": "9121 Burnet Rd, Austin, TX 78701",
+   "carrier": "USPS",
+   "tracking": "1Z2349764777",
+   "eta": "delivered"
+  },
+  "ORD-9632": {
+   "id": "ORD-9632",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    }
+   ],
+   "total": 62.91,
+   "email": "tom42@example.com",
+   "address": "588 Congress Ave, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-4906": {
+   "id": "ORD-4906",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-109",
+     "title": "Domain-Driven Design",
+     "price": 23.69
+    },
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    },
+    {
+     "book_id": "BK-122",
+     "title": "Fluent Python",
+     "price": 27.47
+    }
+   ],
+   "total": 89.11,
+   "email": "omar76@example.com",
+   "address": "7458 Riverside Dr, Chicago, IL 60601",
+   "carrier": "UPS",
+   "tracking": "1Z4771246026",
+   "eta": "2026-11-02"
+  },
+  "ORD-2793": {
+   "id": "ORD-2793",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    },
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 85.39,
+   "email": "arjun7@example.com",
+   "address": "2254 Elm Ct, Austin, TX 78701",
+   "carrier": "USPS",
+   "tracking": "1Z3135239529",
+   "eta": "delivered"
+  },
+  "ORD-5290": {
+   "id": "ORD-5290",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    }
+   ],
+   "total": 37.67,
+   "email": "aisha95@example.com",
+   "address": "2699 Riverside Dr, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-1825": {
+   "id": "ORD-1825",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    },
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    }
+   ],
+   "total": 70.14,
+   "email": "lena19@example.com",
+   "address": "3399 Guadalupe St, Austin, TX 78701",
+   "carrier": "FedEx",
+   "tracking": "1Z1409032124",
+   "eta": "2026-11-26"
+  },
+  "ORD-3967": {
+   "id": "ORD-3967",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    }
+   ],
+   "total": 36.16,
+   "email": "chloe29@example.com",
+   "address": "4230 Burnet Rd, Chicago, IL 60601",
+   "carrier": "USPS",
+   "tracking": "1Z2823543633",
+   "eta": "delivered"
+  },
+  "ORD-4305": {
+   "id": "ORD-4305",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-122",
+     "title": "Fluent Python",
+     "price": 27.47
+    }
+   ],
+   "total": 27.47,
+   "email": "lena6@example.com",
+   "address": "2633 Elm Ct, Chicago, IL 60601",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-6111": {
+   "id": "ORD-6111",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    },
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    }
+   ],
+   "total": 51.81,
+   "email": "jonas91@example.com",
+   "address": "9194 Burnet Rd, Austin, TX 78704",
+   "carrier": "FedEx",
+   "tracking": "1Z9211563925",
+   "eta": "2026-11-11"
+  },
+  "ORD-5997": {
+   "id": "ORD-5997",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    },
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    }
+   ],
+   "total": 64.63,
+   "email": "omar51@example.com",
+   "address": "549 Congress Ave, Chicago, IL 60601",
+   "carrier": "UPS",
+   "tracking": "1Z8047110330",
+   "eta": "delivered"
+  },
+  "ORD-9701": {
+   "id": "ORD-9701",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    },
+    {
+     "book_id": "BK-117",
+     "title": "Thinking in Systems",
+     "price": 32.19
+    }
+   ],
+   "total": 54.67,
+   "email": "ravi12@example.com",
+   "address": "3256 Riverside Dr, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-4372": {
+   "id": "ORD-4372",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    },
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    }
+   ],
+   "total": 109.92,
+   "email": "sana52@example.com",
+   "address": "1883 Oak St, Round Rock, TX 78664",
+   "carrier": "UPS",
+   "tracking": "1Z5608217967",
+   "eta": "2026-11-16"
+  },
+  "ORD-5750": {
+   "id": "ORD-5750",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    },
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    }
+   ],
+   "total": 64.22,
+   "email": "arjun26@example.com",
+   "address": "7952 Congress Ave, Round Rock, TX 78664",
+   "carrier": "USPS",
+   "tracking": "1Z4248048647",
+   "eta": "delivered"
+  },
+  "ORD-8302": {
+   "id": "ORD-8302",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    },
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    }
+   ],
+   "total": 51.99,
+   "email": "priya99@example.com",
+   "address": "3732 Guadalupe St, Round Rock, TX 78664",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-9193": {
+   "id": "ORD-9193",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    }
+   ],
+   "total": 22.74,
+   "email": "tom13@example.com",
+   "address": "31 Congress Ave, Austin, TX 78704",
+   "carrier": "UPS",
+   "tracking": "1Z8114750259",
+   "eta": "2026-11-02"
+  },
+  "ORD-3914": {
+   "id": "ORD-3914",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 108.6,
+   "email": "diego62@example.com",
+   "address": "4063 Congress Ave, Round Rock, TX 78664",
+   "carrier": "UPS",
+   "tracking": "1Z8868493750",
+   "eta": "delivered"
+  },
+  "ORD-5432": {
+   "id": "ORD-5432",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    }
+   ],
+   "total": 37.67,
+   "email": "aisha59@example.com",
+   "address": "1577 Burnet Rd, Miami, FL 33101",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-1297": {
+   "id": "ORD-1297",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    }
+   ],
+   "total": 27.88,
+   "email": "tom51@example.com",
+   "address": "7569 Oak St, Austin, TX 78701",
+   "carrier": "UPS",
+   "tracking": "1Z5712553153",
+   "eta": "2026-11-21"
+  },
+  "ORD-5103": {
+   "id": "ORD-5103",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    },
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    }
+   ],
+   "total": 85.65,
+   "email": "jonas10@example.com",
+   "address": "6149 Burnet Rd, Austin, TX 78704",
+   "carrier": "FedEx",
+   "tracking": "1Z5043907390",
+   "eta": "delivered"
+  },
+  "ORD-1605": {
+   "id": "ORD-1605",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    },
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 55.38,
+   "email": "diego39@example.com",
+   "address": "2451 Congress Ave, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-1251": {
+   "id": "ORD-1251",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    }
+   ],
+   "total": 29.07,
+   "email": "arjun20@example.com",
+   "address": "8138 Congress Ave, Miami, FL 33101",
+   "carrier": "USPS",
+   "tracking": "1Z5799980768",
+   "eta": "2026-11-15"
+  },
+  "ORD-1302": {
+   "id": "ORD-1302",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    },
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    }
+   ],
+   "total": 50.62,
+   "email": "aisha6@example.com",
+   "address": "8313 Congress Ave, Round Rock, TX 78664",
+   "carrier": "UPS",
+   "tracking": "1Z6512520876",
+   "eta": "delivered"
+  },
+  "ORD-9284": {
+   "id": "ORD-9284",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    },
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    }
+   ],
+   "total": 49.74,
+   "email": "ravi69@example.com",
+   "address": "8231 Lamar Blvd, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-4104": {
+   "id": "ORD-4104",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    }
+   ],
+   "total": 22.33,
+   "email": "maya63@example.com",
+   "address": "9355 Lamar Blvd, Austin, TX 78704",
+   "carrier": "UPS",
+   "tracking": "1Z4221406026",
+   "eta": "2026-11-05"
+  },
+  "ORD-9425": {
+   "id": "ORD-9425",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-100",
+     "title": "The Pragmatic Programmer",
+     "price": 32.9
+    },
+    {
+     "book_id": "BK-113",
+     "title": "Continuous Delivery",
+     "price": 62.91
+    }
+   ],
+   "total": 95.81,
+   "email": "chloe80@example.com",
+   "address": "8498 Oak St, Round Rock, TX 78664",
+   "carrier": "USPS",
+   "tracking": "1Z4824689531",
+   "eta": "delivered"
+  },
+  "ORD-8778": {
+   "id": "ORD-8778",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    }
+   ],
+   "total": 43.96,
+   "email": "tom28@example.com",
+   "address": "3842 Lamar Blvd, Miami, FL 33101",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-5025": {
+   "id": "ORD-5025",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    }
+   ],
+   "total": 29.07,
+   "email": "arjun77@example.com",
+   "address": "5536 Oak St, Austin, TX 78701",
+   "carrier": "UPS",
+   "tracking": "1Z3971425557",
+   "eta": "2026-11-27"
+  },
+  "ORD-8324": {
+   "id": "ORD-8324",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-110",
+     "title": "The Mythical Man-Month",
+     "price": 47.01
+    },
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    }
+   ],
+   "total": 68.34,
+   "email": "diego76@example.com",
+   "address": "3005 Oak St, Round Rock, TX 78664",
+   "carrier": "FedEx",
+   "tracking": "1Z8673399686",
+   "eta": "delivered"
+  },
+  "ORD-2741": {
+   "id": "ORD-2741",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    }
+   ],
+   "total": 21.33,
+   "email": "omar19@example.com",
+   "address": "8388 Burnet Rd, Austin, TX 78704",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-8080": {
+   "id": "ORD-8080",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    },
+    {
+     "book_id": "BK-104",
+     "title": "Site Reliability Engineering",
+     "price": 20.67
+    }
+   ],
+   "total": 82.26,
+   "email": "omar26@example.com",
+   "address": "3608 Burnet Rd, Round Rock, TX 78664",
+   "carrier": "USPS",
+   "tracking": "1Z5191792167",
+   "eta": "2026-11-01"
+  },
+  "ORD-9110": {
+   "id": "ORD-9110",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    },
+    {
+     "book_id": "BK-115",
+     "title": "Staff Engineer",
+     "price": 31.32
+    },
+    {
+     "book_id": "BK-116",
+     "title": "An Elegant Puzzle",
+     "price": 42.87
+    }
+   ],
+   "total": 110.35,
+   "email": "jonas9@example.com",
+   "address": "9897 Burnet Rd, Austin, TX 78701",
+   "carrier": "UPS",
+   "tracking": "1Z2766750031",
+   "eta": "delivered"
+  },
+  "ORD-9944": {
+   "id": "ORD-9944",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-118",
+     "title": "The Manager's Path",
+     "price": 22.74
+    },
+    {
+     "book_id": "BK-105",
+     "title": "The Phoenix Project",
+     "price": 27.88
+    }
+   ],
+   "total": 50.62,
+   "email": "diego87@example.com",
+   "address": "8140 Lamar Blvd, Round Rock, TX 78664",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-7440": {
+   "id": "ORD-7440",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-101",
+     "title": "Designing Data-Intensive Applications",
+     "price": 36.16
+    },
+    {
+     "book_id": "BK-123",
+     "title": "AI Engineering",
+     "price": 37.67
+    }
+   ],
+   "total": 73.83,
+   "email": "diego88@example.com",
+   "address": "9682 Lamar Blvd, Chicago, IL 60601",
+   "carrier": "FedEx",
+   "tracking": "1Z1497521191",
+   "eta": "2026-11-26"
+  },
+  "ORD-9301": {
+   "id": "ORD-9301",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-107",
+     "title": "Release It!",
+     "price": 29.07
+    },
+    {
+     "book_id": "BK-106",
+     "title": "Accelerate",
+     "price": 37.95
+    }
+   ],
+   "total": 67.02,
+   "email": "tom59@example.com",
+   "address": "9211 Lamar Blvd, Chicago, IL 60601",
+   "carrier": "USPS",
+   "tracking": "1Z4051130779",
+   "eta": "delivered"
+  },
+  "ORD-6042": {
+   "id": "ORD-6042",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    },
+    {
+     "book_id": "BK-112",
+     "title": "Test Driven Development",
+     "price": 44.93
+    },
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    }
+   ],
+   "total": 111.37,
+   "email": "sana44@example.com",
+   "address": "6219 Riverside Dr, Austin, TX 78701",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  },
+  "ORD-4525": {
+   "id": "ORD-4525",
+   "status": "shipped",
+   "items": [
+    {
+     "book_id": "BK-120",
+     "title": "Grokking Algorithms",
+     "price": 22.48
+    },
+    {
+     "book_id": "BK-121",
+     "title": "Effective Java",
+     "price": 43.96
+    }
+   ],
+   "total": 66.44,
+   "email": "jonas85@example.com",
+   "address": "9756 Elm Ct, Chicago, IL 60601",
+   "carrier": "FedEx",
+   "tracking": "1Z5314274683",
+   "eta": "2026-11-16"
+  },
+  "ORD-4761": {
+   "id": "ORD-4761",
+   "status": "delivered",
+   "items": [
+    {
+     "book_id": "BK-103",
+     "title": "Refactoring",
+     "price": 22.33
+    }
+   ],
+   "total": 22.33,
+   "email": "diego54@example.com",
+   "address": "6740 Guadalupe St, Round Rock, TX 78664",
+   "carrier": "FedEx",
+   "tracking": "1Z5921303301",
+   "eta": "delivered"
+  },
+  "ORD-6614": {
+   "id": "ORD-6614",
+   "status": "processing",
+   "items": [
+    {
+     "book_id": "BK-102",
+     "title": "Clean Code",
+     "price": 21.33
+    },
+    {
+     "book_id": "BK-111",
+     "title": "Code Complete",
+     "price": 61.59
+    }
+   ],
+   "total": 82.92,
+   "email": "chloe60@example.com",
+   "address": "543 Congress Ave, Round Rock, TX 78664",
+   "carrier": null,
+   "tracking": null,
+   "eta": null
+  }
+ }
+}
